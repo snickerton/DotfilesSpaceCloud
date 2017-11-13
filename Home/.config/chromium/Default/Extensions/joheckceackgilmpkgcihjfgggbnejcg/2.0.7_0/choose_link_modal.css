@@ -1,0 +1,104 @@
+.mb-modal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  color: #4A5357;
+}
+
+.mb-modal-container .mb-transparent-layer {
+  background-color: #34495E;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.mb-modal-container .mb-modal {
+  width: 300px;
+  max-height: 450px;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: 60px;
+  z-index: 11;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+.mb-modal-container .header-text {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mb-modal-container .items-container {
+  max-height: 384px;
+  overflow: scroll;
+}
+
+.mb-modal-container .mb-content-box {
+  border: 1px solid #ddd;
+  background-color: #F1F5F9;
+  border-radius: 3px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.mb-modal-container .mb-content-box:hover {
+  border-color: #68B4FF;
+}
+
+.mb-modal-container .mb-content-box:hover .box-header {
+  color: #68B4FF;
+}
+
+.mb-modal-container .mb-content-box .box-header {
+  line-height: 28px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mb-modal-container .mb-content-box .url-text {
+  font-size: 13px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 4px;
+  border-radius: 3px;
+}
+
+.mb-modal-container .mb-content-box .link-attribute-text {
+  font-size: 12px;
+  color: grey;
+  line-height: 18px;
+}
+
+.mb-modal-container .close-modal-btn {
+  font-size: 18px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  color: grey;
+  cursor: pointer;
+}
+
+.mb-modal-container .close-modal-btn:hover {
+  color: #68B4FF;
+} 
+
+.mb-modal-container .mb-whitelabel-manager {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 8px;
+  border-top: 1px solid #ddd;
+}

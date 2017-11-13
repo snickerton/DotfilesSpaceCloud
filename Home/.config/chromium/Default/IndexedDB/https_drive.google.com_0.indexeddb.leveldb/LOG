@@ -1,0 +1,6 @@
+2017/10/31-00:10:02.078 5194 Reusing MANIFEST /home/snickerton/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/31-00:10:02.102 5194 Recovering log #186
+2017/10/31-00:10:02.131 5194 Reusing old log /home/snickerton/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000186.log 
+2017/10/31-00:10:11.330 5372 Level-0 table #192: started
+2017/10/31-00:10:11.504 5372 Level-0 table #192: 4711727 bytes OK
+2017/10/31-00:10:11.550 5372 Delete type=0 #186

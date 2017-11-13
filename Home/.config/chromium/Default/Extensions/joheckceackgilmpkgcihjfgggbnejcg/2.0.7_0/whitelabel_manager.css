@@ -1,0 +1,37 @@
+.mb-whitelabel-manager {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+}
+
+.mb-whitelabel-manager .section-label {
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  font-size: 13px;
+}
+
+.mb-whitelabel-manager .color-picker-toggle {
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  float: left;
+}
+
+.mb-whitelabel-manager .logo-manager .logo-container {
+  margin-top: 4px;
+}
+
+.mb-whitelabel-manager .logo-manager img {
+  margin: initial;
+}
+
+.mb-whitelabel-manager-color-popover {
+  z-index: 50;
+}

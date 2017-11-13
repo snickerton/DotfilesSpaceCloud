@@ -1,0 +1,140 @@
+.fc .fc-toolbar {
+  margin-bottom: 0px;
+  overflow: hidden;
+  height: 49px;
+}
+
+.fc .fc-today-button {
+  background-color: white;
+  background-image: inherit;
+  height: 50px;
+  border: none;
+  border-radius: 0px;
+  border-left: 1px solid #dddddd;
+}
+
+.fc .fc-today-button:not(.fc-state-disabled) {
+  color: #4a5357;
+}
+
+.fc .fc-prev-button {
+  background-color: white;
+  background-image: inherit;
+  height: 50px;
+  border: none;
+  border-radius: 0px;
+  transition: color .25s;
+  color: #4a5357;
+  border-left: 1px solid #dddddd;
+  box-shadow: inherit;
+}
+
+.fc .fc-prev-button:hover {
+  color: #68b3ff;
+}
+
+.fc .fc-next-button {
+  background-color: white;
+  background-image: inherit;
+  height: 50px;
+  border: none;
+  border-radius: 0px;
+  transition: color .25s;
+  color: #4a5357;
+  border-right: 1px solid #dddddd;
+  box-shadow: inherit;
+}
+
+.fc .fc-next-button:hover {
+  color: #68b3ff;
+}
+
+.fc .fc-right h2 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 50px;
+  color: #4A5357;
+  font-weight: bold;
+}
+
+.fc .fc-viewToggle-button {
+  content: "\f00a";
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #4a5357;
+  background-color: #f8f8f8;
+  background-image: inherit;
+  font-size: 20px;
+  border: none;
+  line-height: 50px;
+  box-shadow: inherit;
+  height: 50px;
+  transition: color 0.25s;
+  cursor: pointer;
+}
+
+.fc .fc-viewToggle-button:hover {
+  color: #68b3ff;
+}
+
+.fc .fc-viewToggle-button:before {
+  content: "\f00a";
+}
+
+.fc .fc-viewToggle-button.week-toggle:before {
+  content: "\f0c9";
+}
+
+.fc .fc-today-button:hover:not(.fc-state-disabled) {
+  color: #68b3ff;
+}
+
+.fc .fc-viewToggle-button .fc-icon {
+  margin: 0;
+  top: 0;
+}
+
+.fc .fc-day-header {
+  border: none;
+  height: 40px;
+  line-height: 40px;
+  color: #4a5357;
+  font-weight: normal;
+}
+
+.fc .fc-axis.fc-time {
+  color: #9e9e9e;
+  font-size: 14px;
+}
+
+.fc .fc-today {
+  background: #ecf6ff !important;
+}
+
+.fc .fc-now-indicator {
+  border-color: #FF8989;
+  border-top-width: 2px;
+}
+
+.fc-ltr .fc-axis {
+  font-size: 13px;
+  color: #9e9e9e;
+}
+
+.fc .fc-event {
+  border-radius: 0px;
+  border-right-width: 0px;
+  border-top: none;
+  border-bottom-width: 0px;
+  border-left-width: 2px;
+}
+
+.fc hr.fc-divider {
+  padding: 0px;
+}
+
+.fc .fc-day-number.fc-past:not(.fc-other-month) {
+  color: #4a5357;
+}

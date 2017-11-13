@@ -1,0 +1,402 @@
+{
+   "extDescription": {
+      "description": "Extension description in Chrome webstore (max. 132 characters)",
+      "message": "Увеличение изображений/видео на всех любимых сайтах (Facebook и т.д.) Просто наведите мышку на картинку, чтобы увеличить её."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Hover Zoom+"
+   },
+   "extShortName": {
+      "description": "Short extension name",
+      "message": "HoverZoom"
+   },
+   "extUpdated": {
+      "description": "Extension update notification",
+      "message": "Hover Zoom+ был обновлен"
+   },
+   "optActionKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Если включено, то Hover Zoom+ будет активным только тогда, когда эта клавиша удерживается нажатой."
+   },
+   "optActionKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Активировать Hover Zoom+"
+   },
+   "optAddToHistory": {
+      "description": "[options] Add viewed pictures to the browser's history option",
+      "message": "Добавлять просмотренные картинки в историю браузера"
+   },
+   "optAlwaysPreload": {
+      "description": "[options] Automatically preload zoomed images option",
+      "message": "Автоматическая предзагрузка увеличенных изображений"
+   },
+   "optButtonAddSite": {
+      "description": "[options] Button for adding a site on sites option page",
+      "message": "Добавить"
+   },
+   "optButtonReset": {
+      "description": "[options] Reset button label",
+      "message": "Сброс"
+   },
+   "optButtonSave": {
+      "description": "[options] Save button label",
+      "message": "Сохранить"
+   },
+   "optCaptionLocation": {
+      "description": "[options] Adjust the position of the caption",
+      "message": "Расположение подписей к изображениям:"
+   },
+   "optCaptionLocationAbove": {
+      "description": "[options] Caption location option to put captions above the image",
+      "message": "Сверху"
+   },
+   "optCaptionLocationBelow": {
+      "description": "[options] Caption location option to put captions below the image",
+      "message": "Снизу"
+   },
+   "optCaptionLocationNone": {
+      "description": "[options] Caption location option to disable captions",
+      "message": "Не показывать"
+   },
+   "optCaptionLocationTooltip": {
+      "description": "[options] Tooltip for adjusting the position of the caption",
+      "message": "Показывать подпись сверху или снизу от картинки, или не показывать вообще"
+   },
+   "optCenterImages": {
+      "description": "[options] Center images in the middle of the page option",
+      "message": "Фиксировать положение изображения в центре экрана"
+   },
+   "optCenterImagesTooltip": {
+      "description": "[options] Tooltip for center images in the middle of the page option",
+      "message": "Всегда показывать изображения в центре экрана вместо того, чтобы они следовали за курсором"
+   },
+   "optDisableMouseWheelForVideo": {
+      "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos",
+      "message": "Не использовать колесо мыши для навигации в видео (клавиатура по-прежнему будет работать)"
+   },
+   "optDisableMouseWheelForVideoTooltip": {
+      "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos",
+      "message": "Колесо мыши будет работать в альбомах, но не будет изменять позицию в видео"
+   },
+   "optDisplayDelay": {
+      "description": "[options] Delay before displaying a picture option",
+      "message": "Задержка перед отображением картинки:"
+   },
+   "optDisplayDelayVideo": {
+      "description": "[options] Delay before displaying a video option",
+      "message": "Задержка перед отображением видео:"
+   },
+   "optDurationUnitName": {
+      "description": "[options] Short form of \"second\" for delay duration",
+      "message": "сек"
+   },
+   "optEnableAmbilight": {
+      "description": "[options] Enable ambient light behind images option",
+      "message": "Включить рассеянный свет позади изображения"
+   },
+   "optEnableAmbilightTooltip": {
+      "description": "[options] Tooltip for enable ambient light behind images option",
+      "message": "Создать легкий эффект свечения, похожий на технологию фоновой подсветкой Ambilight компании Phillips."
+   },
+   "optEnableGalleries": {
+      "description": "[options] Enable albums support option",
+      "message": "Включить поддержку альбомов"
+   },
+   "optExtensionEnabled": {
+      "description": "[options] Enable Hover Zoom+ option",
+      "message": "Включить Hover Zoom"
+   },
+   "optFadeDuration": {
+      "description": "[options] Fading animation duration option",
+      "message": "Продолжительность анимации затухания:"
+   },
+   "optFilterNSFW": {
+      "description": "[options] Exclude NSFW images (Reddit only) option",
+      "message": "Исключить изображения NSFW (только на сайте Reddit)"
+   },
+   "optFooterReportIssue": {
+      "description": "[options] Report a bug link in page footer",
+      "message": "Сообщить об ошибке"
+   },
+   "optFooterSourceCode": {
+      "description": "[options] Source code link in page footer",
+      "message": "Исходный код"
+   },
+   "optFooterVersionCopyright": {
+      "description": "[options] Copyright and version number in page footer",
+      "message": "Версия $1 - © 2014-2017 Олег Анашкин"
+   },
+   "optFullZoomKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Когда эта клавиша удерживается нажатой, изображение отображается, используя все доступное пространство. Полезно для только фотографий высокого разрешения."
+   },
+   "optFullZoomKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Активировать полный масштаб"
+   },
+   "optGalleriesMouseWheel": {
+      "description": "[options] Use mousewheel to navigate albums option",
+      "message": "Использовать колёсико мыши для навигации по альбомам"
+   },
+   "optGalleriesMouseWheelTooltip": {
+      "description": "[options] Tooltip for use mousewheel to navigate albums option",
+      "message": "Навигация по альбому с помощью колеса мыши"
+   },
+   "optHideKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Нажатие этой клавиши скрывает увеличенное изображение. Используйте это, когда картинка прячет нужные элементы страницы."
+   },
+   "optHideKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Отключить Hover Zoom+"
+   },
+   "optMouseUnderlap": {
+      "description": "[options] Extend zoomed images below the mouse cursor option",
+      "message": "Увеличивать размер изображения под курсором мыши"
+   },
+   "optMouseUnderlapTooltip": {
+      "description": "[options] Tooltip for extend zoomed images below the mouse cursor option",
+      "message": "Если флажок снят, размер увеличенного изображения будет изменен динамически"
+   },
+   "optMuteVideos": {
+      "description": "[options] Mute zoomed videos option",
+      "message": "Отключить звук видео"
+   },
+   "optMuteVideosTooltip": {
+      "description": "[options] Tooltip for mute zoomed videos option",
+      "message": "Отключить звук увеличенного видео"
+   },
+   "optNextImgKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Нажмите эту клавишу для просмотра следующего изображения в альбоме."
+   },
+   "optNextImgKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Просмотр следующего изображения в альбоме"
+   },
+   "optOpacityUnitName": {
+      "description": "[options] Unit name (percentage) for opacity option",
+      "message": "%"
+   },
+   "optOpenImageInTabKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Нажмите эту клавишу, чтобы открыть картинку в новой вкладке. Нажмите ее еще раз, чтобы закрыть вкладку. Нажатие Shift+клавиша откроет картинку в фоновой вкладке."
+   },
+   "optOpenImageInTabKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Открыть изображение в новой вкладке"
+   },
+   "optOpenImageInWindowKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Нажмите эту клавишу, чтобы открыть картинку в новом окне. Нажмите ее еще раз, чтобы закрыть окно."
+   },
+   "optOpenImageInWindowKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Открыть изображение в новом окне"
+   },
+   "optPageActionEnabled": {
+      "description": "[options] Show icon in address bar option",
+      "message": "Показывать иконку в адресной строке"
+   },
+   "optPageActionEnabledTooltip": {
+      "description": "[options] Tooltip for show icon in address bar option",
+      "message": "Только когда имеются изображения, которые могут быть увеличены"
+   },
+   "optPageActionKeys": {
+      "description": "[options] Page title for action key options",
+      "message": "Клавиши действий"
+   },
+   "optPageAdvanced": {
+      "description": "[options] Page title for advanced options",
+      "message": "Дополнительнo"
+   },
+   "optPageGeneral": {
+      "description": "[options] Page title for general options",
+      "message": "Общие"
+   },
+   "optPagePlugins": {
+      "description": "[options] Page title for plugin options",
+      "message": "Плагины"
+   },
+   "optPageSites": {
+      "description": "[options] Page title for site options",
+      "message": "Сайты"
+   },
+   "optPicturesOpacity": {
+      "description": "[options] Zoomed pictures opacity option",
+      "message": "Прозрачность увеличенного изображения:"
+   },
+   "optPlugins": {
+      "description": "[options] Section which contains checkboxes for disabling plugins",
+      "message": "Включить/отключить отдельные плагины"
+   },
+   "optPrevImgKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Нажмите эту клавишу для просмотра предыдущего изображения в альбоме."
+   },
+   "optPrevImgKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Просмотр предыдущего изображения в альбоме"
+   },
+   "optSaveImageKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Нажмите эту клавишу, чтобы сохранить изображение, которое вы просматриваете."
+   },
+   "optSaveImageKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Сохранить картинку"
+   },
+   "optSaved": {
+      "description": "[options] Notification after saving options",
+      "message": "Настройки сохранены. Для некоторых параметров, возможно, потребуется перезагрузить страницу."
+   },
+   "optSectionAdvanced": {
+      "description": "[options] Page section for advanced options",
+      "message": "Дополнительные настройки"
+   },
+   "optSectionDelays": {
+      "description": "[options] Page section for delay options",
+      "message": "Задержки"
+   },
+   "optSectionSitesDisabled": {
+      "description": "[options] Page section for enabling extension for specific sites",
+      "message": "URL-адреса, для которых Hover Zoom+ должен быть выключен"
+   },
+   "optSectionSitesEnabled": {
+      "description": "[options] Page section for enabling extension for specific sites",
+      "message": "URL-адреса, для которых Hover Zoom+ должен быть включен"
+   },
+   "optSectionVideo": {
+      "description": "[options] Page section for video options",
+      "message": "Видео"
+   },
+   "optSectionView": {
+      "description": "[options] Page section for view options",
+      "message": "Просмотр"
+   },
+   "optShowHighRes": {
+      "description": "[options] Show high resolution pictures when available option",
+      "message": "По возможности показывать фотографии высокого разрешения"
+   },
+   "optShowHighResTooltip": {
+      "description": "[options] Tooltip for show high resolution pictures when available option",
+      "message": "Загрузка фотографий может занять больше времени"
+   },
+   "optShowLastUpdateNotification": {
+      "description": "[options] Show last update notification",
+      "message": "(показать последнее уведомление)"
+   },
+   "optShowWhileLoading": {
+      "description": "[options] Show zoomed pictures while loading option",
+      "message": "Показывать увеличенные изображения во время их загрузки"
+   },
+   "optShowWhileLoadingTooltip": {
+      "description": "[options] Tooltip for show zoomed pictures while loading option",
+      "message": "Увеличенное изображение будет отображаться до его полной загрузки"
+   },
+   "optSiteDisclaimer": {
+      "description": "[options] Disclaimer on the sites option page",
+      "message": "Имейте в виду, что фильтры доменов могут перекрываться. Например: если есть фильтр \"picasaweb.google.com\" и \"google.com\", то удаление \"picasaweb.google.com\" не включит поддержку Picasa, так как он будет по-прежнему исключен фильтром \"google.com\"."
+   },
+   "optSitePlaceholder": {
+      "description": "[options] Placeholder for a site url input box",
+      "message": "Примеры: facebook.com, google.com/reader"
+   },
+   "optTitle": {
+      "description": "[options] Page title",
+      "message": "Настройки Hover Zoom+"
+   },
+   "optUpdateNotifications": {
+      "description": "[options] Show update notifications option",
+      "message": "Показывать уведомления об обновлениях"
+   },
+   "optVideoPositionStep": {
+      "description": "[options] Changing video position amount option",
+      "message": "Использовать кнопки пред./след. для изменения позиции видео на"
+   },
+   "optVideoPositionStepTooltip": {
+      "description": "[options] Tooltip for changing video position option",
+      "message": "Пропустить видео назад или вперед на это количество секунд"
+   },
+   "optVideoPositionStepUnitName": {
+      "description": "[options] Unit name (seconds) for changing video position option",
+      "message": "сек"
+   },
+   "optVideoTimestamp": {
+      "description": "[options] Enable timestamp / video length on videos",
+      "message": "Показать метку времени на видео"
+   },
+   "optVideoTimestampTooltip": {
+      "description": "[options] Tooltip for video length countdown on videos",
+      "message": "Показать метку времени / общую продолжительность видео"
+   },
+   "optVideoVolume": {
+      "description": "[options] Audio volume for unmuted videos option",
+      "message": "Громкость звука для видео с отключенным звуком:"
+   },
+   "optVideoVolumeTooltip": {
+      "description": "[options] Tooltip for audio volume for unmuted videos option",
+      "message": "Если звук видео полностью не отключен, то громкость установится на это значение (0-100)"
+   },
+   "optVideoVolumeUnitName": {
+      "description": "[options] Unit name (percentage) for video volume option",
+      "message": "%"
+   },
+   "optWhitelistMode": {
+      "description": "[options] Whitelist mode checkbox",
+      "message": "Режим белого списка"
+   },
+   "optWhitelistModeTooltip": {
+      "description": "[options] Tooltip for whitelist mode checkbox",
+      "message": "Включить Hover Zoom+ только для сайтов, перечисленных ниже"
+   },
+   "optZoomFactor": {
+      "description": "[options] Adjust the size of zoomed images option",
+      "message": "Дополнительно увеличить изображения на этот коэффициент:"
+   },
+   "optZoomFactorTooltip": {
+      "description": "[options] Tooltip for adjust the size of zoomed images option",
+      "message": "Умножить размер увеличенного изображения на это число"
+   },
+   "optZoomFactorUnitName": {
+      "description": "[options] Unit name (percentage) for zoomed images size option",
+      "message": "раз"
+   },
+   "optZoomVideos": {
+      "description": "[options] Zoom videos (WebM, MP4) option",
+      "message": "Увеличить видео (WebM, MP4)"
+   },
+   "optZoomVideosTooltip": {
+      "description": "[options] Tooltip for zoom videos (WebM, MP4) option",
+      "message": "Увеличить видео (WebM, MP4)"
+   },
+   "popAllowPerSiteToggle": {
+      "description": "[popup] Allow per-site extension configuration",
+      "message": "Разрешить конфигурацию каждого сайта по отдельности"
+   },
+   "popDisableForAllSites": {
+      "description": "[popup] Disable the extension",
+      "message": "Отключить для всех сайтов"
+   },
+   "popDisableForSite": {
+      "description": "[popup] Disables the extension for a specific site",
+      "message": "Отключить для $1"
+   },
+   "popEnableForSite": {
+      "description": "[popup] Enables the extension for a specific site",
+      "message": "Включить для $1"
+   },
+   "popMoreOptions": {
+      "description": "[popup] More options",
+      "message": "Дополнительные параметры"
+   },
+   "popPreloadImages": {
+      "description": "[popup] Preload zoomed images",
+      "message": "Предзагрузка увеличенных изображений"
+   },
+   "popPreloadingImages": {
+      "description": "[popup] Preloading zoomed images",
+      "message": "Предварительная загрузка..."
+   }
+}

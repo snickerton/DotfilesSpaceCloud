@@ -1,0 +1,147 @@
+.toggle-calendars-section {
+  clear: both;
+  float: left;
+  width: 100%;
+  overflow-y: scroll;
+  max-height: calc(100% - 47px);
+  overflow-x: hidden;
+  box-sizing: border-box;
+  position: relative;
+  background-color: white;
+}
+
+.toggle-calendars-section::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 1px;
+}
+
+.toggle-calendars-section::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #CACACA;
+  -webkit-box-shadow: 0 0 1px #CACACA;
+}
+
+.toggle-calendars-section table {
+  width: 100%;
+}
+
+.toggle-calendars-section tr {
+  height: 30px;
+  border-bottom: 1px solid #dde0e2;
+  color: #57585A;
+  cursor: pointer;
+  display: block;
+  box-sizing: border-box;
+  width: 260px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.toggle-calendars-section tr:hover {
+  background-color: #eaf9ff;
+}
+
+.toggle-calendars-section td {
+  float: left;
+}
+
+.toggle-calendars-section tbody .divider-row {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #7B8994;
+  background-color: #eaf9ff;
+  transition: 0.1s all;
+}
+
+.toggle-calendars-section .cal-source-group {
+  overflow: hidden;
+  display: block;
+}
+
+.toggle-calendars-section tbody .divider-row:hover {
+  background-color: #eaf9ff;
+}
+
+.toggle-calendars-section tbody .divider-row:hover .minimize-cal-arrow {
+  color: #68b3ff;
+}
+
+.toggle-calendars-section tr .icon-section {
+  height: 30px;
+  width: 35px;
+  display: inline-block;
+  float: left;
+}
+
+.toggle-calendars-section tr .name-section {
+  display: inline-block;
+  width: 220px;
+  line-height: 30px;
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #7B8994;
+  font-size: 13px;
+}
+
+.toggle-calendars-section tr .circle-icon {
+  margin-left: 9.5px;
+  margin-top: 7.5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid;
+  box-sizing: border-box;
+}
+
+.toggle-calendars-section tr .pin-icon {
+  float: right;
+  width: 20px;
+  height: 30px;
+  font-size: 14px;
+  color: #78909c;
+  display: none;
+}
+
+.toggle-calendars-section tr .pin-icon:hover {
+  color: #68b3ff;
+}
+
+.toggle-calendars-section input {
+  width: 100%;
+  border: 1px solid white;
+  font-size: 14px;
+  line-height: 25px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  transition: border-color .25s;
+  color: #57585A;
+  border-bottom-color: #ebeced;
+}
+
+.toggle-calendars-section input:focus {
+  border-color: #ebeced;
+}
+
+.toggle-calendars-section .fa-times {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #57585a;
+}
+
+.divider-row .minimize-cal-arrow {
+  transition: .1s all;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.divider-row .minimize-cal-arrow:hover {
+  color: #68b3ff;
+}

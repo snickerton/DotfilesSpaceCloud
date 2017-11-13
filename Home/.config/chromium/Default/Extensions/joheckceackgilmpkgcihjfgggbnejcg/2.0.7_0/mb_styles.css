@@ -1,0 +1,1004 @@
+.meetingbird_inbox_maximized #aVMuZe {
+  padding-right: 240px;
+  box-sizing: border-box;
+}
+
+.meetingbird_inbox_maximized .mb-cal-container {
+  right: 90px !important;
+  top: 80px;
+  height: calc(100% - 100px);
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24);
+}
+
+.meetingbird_gmail_maximized .nH .bkK {
+  width: calc(100vw - 443px) !important;
+}
+
+.meetingbird_gmail_maximized .nH .bkK table.aKk {
+  width: 100%;
+}
+
+.meetingbird_gmail_maximized .nH td.aRz.J-KU {
+  width: inherit !important;
+}
+
+.meetingbird_gmail_maximized .nH td.aRz.J-KU .aAy{
+  width: inherit !important;
+}
+
+.mb-cal-container div:focus {
+  outline: none !important;
+}
+
+.mb-cal-container span:focus {
+  outline: none !important;
+}
+
+.mb-cal-container input:focus {
+  outline: none !important;
+}
+
+.mb-cal-container .select2-selection--single {
+  border-color: #ddd;
+}
+
+.mb-container-header {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  height: 30px;
+  background-color: #EBECED;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.mb-container-header img {
+  width: 100px;
+  margin-top: 3px;
+  margin-left: calc(50% - 50px);
+}
+
+.mb-container-header .fa-long-arrow-right {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+
+.mb-inbox-minimized {
+  position: fixed;
+  right: 100px;
+  bottom: 22px;
+  height: 56px;
+  width: 56px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.mb-inbox-minimized:hover {
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 7px 8px rgba(0,0,0,.28);
+}
+
+.mb-inbox-minimized img {
+  width: 56px;
+}
+
+.mb-gmail-minimized {
+  z-index: 3;
+  right: 0px;
+  bottom: 10px;
+  position: fixed;
+  background-color: white;
+  width: 40px;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color .25s;
+}
+
+.mb-gmail-minimized:hover {
+  background-color: #68B4FF;
+}
+
+.mb-gmail-minimized img {
+  width: 32px;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.mb-flex-btn {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 3px;
+  margin-right: 3px;
+  flex: 1;
+  font-size: 14px;
+}
+
+.mb-flex-btn-small {
+  height: 25px;
+  line-height: 25px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 3px;
+  margin-right: 3px;
+  flex: 1;
+}
+
+.mb-blue-hover {
+  background-color: #68B4FF;
+  color: white;
+  transition: background-color .25s;
+  cursor: pointer;
+}
+
+.mb-blue-hover:hover {
+  background-color: #4699ec;
+}
+
+.mb-grey-hover {
+  background-color: #A8A8AC;
+  color: white;
+  transition: background-color .25s;
+  cursor: pointer;
+}
+
+.mb-grey-hover:hover {
+  background-color: #818184;
+}
+
+.mb-green-hover {
+  background-color: #50E3C2;
+  color: white;
+  transition: background-color .25s;
+  cursor: pointer;
+}
+
+.mb-green-hover:hover {
+  background-color: #43c3a7;
+}
+
+.mb-red-hover {
+  background-color: #ff8989;
+  color: white;
+  transition: background-color .25s;
+  cursor: pointer;
+}
+
+.mb-red-hover:hover {
+  background-color: #de7676;
+}
+
+.mb-cal-container {
+  position: fixed;
+  right: 0px;
+  top: 60px;
+  height: calc(100% - 60px);
+  background-color: white;
+  color: #4A5357;
+  font-family: Arial;
+  font-size: 14px;
+  width: 240px;
+  z-index: 3;
+  transition: width .25s;
+}
+
+.mb-cal-container .mb-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  background-color: #f8f8f8;
+  z-index: 1;
+}
+
+.mb-cal-container  .mb-footer .fa-long-arrow-right {
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.mb-cal-container  .mb-footer .fa-long-arrow-right:hover {
+  color: #68B4FF;
+}
+
+.mb-cal-container .mb-footer img {
+  height: 26px;
+  margin-top: 7px;
+  margin-right: 10px;
+  float: right;
+}
+
+.mb-cal-container .mb-footer-btn {
+  flex: 1;
+  cursor: pointer;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  transition: background-color .25s, color .25s;
+  box-sizing: border-box;
+}
+
+.mb-cal-container .mb-footer-btn:hover {
+  background-color: #68B4FF;
+  color: white;
+}
+
+.mb-cal-container .mb-cal {
+  height: 100%;
+  width: 100%;
+  transition: height .25s;
+  overflow: hidden;
+}
+
+.mb-cal-container .minimize-btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 25px;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  z-index: 2;
+}
+
+.mb-cal-container .minimize-btn:hover {
+  color: #68b3ff;
+}
+
+.mb-cal-container .sign-in-content {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-top: 15px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  height: calc(100% - 32px);
+  box-sizing: border-box;
+  top: 0px;
+  background-color: white;
+}
+
+.mb-cal-container .sign-in-btn {
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  box-sizing: border-box;
+  background-color: #68b3ff;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color .25s;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.mb-cal-container .sign-in-btn:hover {
+  background-color: #1d82e8;
+}
+
+.mb-cal-container .sign-in-content .sign-in-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 13px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mb-cal-container .text-content {
+  position: absolute;
+  left: 0;
+  z-index: 5;
+  top: 0px;
+  background-color: white;
+  width: 240px;
+}
+
+.mb-cal-container .text-content .header-text {
+  text-align: center;
+  font-size: 25px;
+}
+
+.mb-cal-container .text-content .sub-header-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mb-cal-container .text-content ul {
+  padding-left: 25px;
+}
+
+.mb-cal-container .text-content ul li {
+  margin-bottom: 10px;
+}
+
+.mb-cal-container .mb-header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: #f8f8f8;
+  z-index: 2;
+  position: absolute;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.mb-cal-container .mb-fullcalendar-container {
+  height: calc(100vh - 100px);
+  display: inline-block;
+  float: left;
+  margin-top: 38px;
+}
+
+.mb-cal-container .mb-fullcalendar-container .fc-event {
+  border-radius: 3px;
+  min-height: 18px;
+  border-left-width: 3px;
+  padding-left: 3px;
+  padding-top: 2px;
+  margin-bottom: 1px;
+}
+
+.mb-cal-container .mb-fullcalendar-container .fc-time-grid-event {
+  max-width: 165px;
+}
+
+.mb-cal-container .mb-fullcalendar-container .fc-event .fa {
+  margin-right: 5px;
+}
+
+.mb-cal-container .mb-fullcalendar-container .clickable-calendar-event {
+  cursor: pointer;
+  transition: box-shadow .25s;
+}
+
+.mb-cal-container .mb-fullcalendar-container .clickable-calendar-event:hover {
+  box-shadow: 0px 0px 8px #cdcdcd;
+}
+
+.mb-cal-container .fc-toolbar {
+  display: none;
+}
+
+.mb-cal-container .fc .fc-axis.fc-time {
+  font-size: 12px;
+}
+
+.mb-user-timezone-popover-container {
+  z-index: 101
+}
+
+.mb-cal-container .user-timezone-container {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  cursor: pointer;
+  color: #4a5357;
+  float: left;
+  display: inline-block;
+}
+
+.mb-cal-container .user-timezone-container .user-timezone-text {
+  font-size: 10px;
+  display: inline-block;
+  width: 47px;
+  text-align: center;
+  float: left;
+  margin-top: 3px;
+}
+
+.mb-cal-container .user-timezone-container:hover .user-timezone-text {
+  color: #68b3ff;
+}
+
+.mb-cal-container .user-timezone-container:hover .fa-globe {
+  color: #68b3ff;
+}
+
+.mb-cal-container .user-timezone-container .fa-globe {
+  font-size: 20px;
+  display: inline-block;
+  width: 47px;
+  text-align: center;
+  margin-top: 7px;
+  color: #4a5357;
+}
+
+.mb-cal-container .user-timezone-container-selected .fa-globe {
+  color: #68b3ff;
+}
+
+.mb-cal-container .user-timezone-container-selected .user-timezone-text {
+  color: #68b3ff;
+}
+
+.mb-cal-container .mb-header .react-datepicker__input-container {
+  width: calc(100% - 50px);
+  float: left;
+}
+
+.mb-cal-container .mb-datepicker {
+  border: none;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  line-height: 38px;
+  height: 38px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  color: #4a5357;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+}
+
+.mb-cal-container .mb-datepicker:hover {
+  color: #68b3ff;
+}
+
+.mb-cal-container .react-datepicker-ignore-onclickoutside {
+  color: #68b3ff;
+}
+
+.mb-cal-container .mb-date-toggle {
+  line-height: 40px;
+  height: 100%;
+  float: left;
+  width: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mb-cal-container .mb-date-toggle:hover {
+  color: #68b3ff;
+}
+
+.mb-cal-container .mb-toggle-btn {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  padding-top: 3px;
+  box-sizing: border-box;
+}
+
+.mb-cal-container .mb-toggle-btn-selected {
+  color: #68b3ff;
+}
+
+.mb-cal-container .mb-toggle-btn:hover {
+  color: #68b3ff;
+}
+
+.mb-cal-container .mb-toggle-btn div {
+  font-size: 9px;
+  margin-top: 4px;
+}
+
+.mb-toggle-calendars-popover-container {
+  z-index: 2;
+}
+
+.mb-toggle-calendars-popover-container .Popover-body {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.mb-toggle-calendars-section {
+  width: 100%;
+  height: calc(100% - 60px);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  background-color: white;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.mb-toggle-calendars-section .header-section {
+  display: inline-block;
+  position: initial;
+  float: left;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  height: 48px;
+  background-color: #f8f8f8;
+  line-height: 48px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.mb-cal-container .mb-back-btn {
+  right: 7px;
+  left: initial;
+  padding-top: 3px;
+  border: 1px solid #dde0e2;
+  border-radius: 3px;
+  top: 12px;
+  background-color: white;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.mb-cal-container .mb-back-btn:hover {
+  color: #68b3ff;
+  border-color: #68b3ff;
+}
+
+.mb-cal-container .toggle-calendars-section input:focus {
+  outline: none;
+}
+
+.mb-cal-container .date-suggestion {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+}
+
+.mb-cal-container .date-suggestion span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mb-cal-container .date-suggestion span:hover {
+  color: #68b3ff;
+}
+
+.mb-cal-container .date-suggestion .fa-times {
+  float: right;
+  top: 7px;
+  right: 6px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.mb-cal-container .date-suggestion .fa-times:hover {
+  color: #68b3ff;
+}
+
+.mb-cal-container .schedule-meeting-container {
+  position: absolute;
+  bottom: 0px;
+  z-index: 3;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  box-sizing: border-box;
+  box-shadow: #ececec 0px -2px 10px;
+  transition: max-height .4s;
+  max-height: 0px;
+  width: 100%;
+}
+
+.mb-cal-container .schedule-meeting-container-expanded {
+  max-height: calc(100% - 40px);
+  overflow: scroll;
+}
+
+@keyframes mb-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.mb-spinner {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: .25rem solid #f3f6fb;
+  border-top-color: #68b3ff;
+  animation: mb-spin .5s infinite linear;
+}
+
+.mb-cal-container .confirmation-view {
+  background-color: white;
+}
+
+.mb-cal-container .confirmation-view .check-circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 30px;
+  line-height: 40px;
+  background-image: linear-gradient(to top right,rgba(0, 169, 255, 0.8) 0, rgba(22, 232, 186, 0.8) 100%);
+  text-align: center;
+  color: white;
+  margin: 15px auto;
+}
+
+.mb-cal-container .confirmation-view .check-circle .fa-check {
+  line-height: 40px;
+  font-size: 22px;
+}
+
+.mb-cal-container .confirmation-view .title-text {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mb-cal-container .confirmation-view .event-info-row {
+  width: 230px;
+  margin: auto;
+  height: initial;
+  display: flex;
+}
+
+.mb-cal-container .confirmation-view .event-info-row .section-icon {
+  width: 30px;
+  text-align: center;
+  font-size: 14px;
+  float: left;
+  line-height: 20px;
+}
+
+.mb-cal-container .confirmation-view .event-info-row .text {
+  display: block;
+  line-height: 20px;
+  float: left;
+  font-size: 13px;
+  width: calc(100% - 50px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mb-cal-container .decline-btn {
+  box-sizing: border-box;
+  border: 1px solid #A8A8AC;
+  color: #A8A8AC;
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  border-radius: 3px;
+  margin: 0px auto 5px;
+  line-height: 25px;
+  height: 25px;
+}
+
+.mb-cal-container .close-times {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.mb-cal-container .close-times:hover {
+  color: #68B4FF;
+}
+
+.mb-cal-container .mb-contacts-finder .Select-control {
+  border: none;
+  font-size: 14px;
+}
+
+.mb-cal-container .mb-contacts-finder .Select--multi .Select-input {
+  margin-left: 0px;
+}
+
+.mb-view-calendar-btn {
+  cursor: pointer;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  background-color: #efefef;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  color: #4a5357;
+  transition: border-color .25s;
+  margin-left: 35px;
+}
+
+.mb-view-calendar-btn:hover {
+  border-color: #68b3ff;
+}
+
+.mb-cal-container .text-content .fa-times {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.mb-cal-container .text-content .fa-times:hover {
+  color: #68B4FF;
+}
+
+.mb-cal-container .notification-text {
+  max-height: 40px;
+  position: absolute;
+  z-index: 3;
+  bottom: 60px;
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  line-height: 40px;
+  text-align: center;
+  border-left: 1px solid #ddd;
+  box-sizing: border-box;
+  background-image: linear-gradient(to top right,rgba(0, 169, 255, 0.8) 0, rgba(22, 232, 186, 0.8) 100%);
+  color: white;
+  transition: max-height .25s;
+  box-shadow: #ececec 0px -2px 10px;
+}
+
+.mb-cal-container .declined-event {
+  text-decoration: line-through; 
+}
+
+.mb-cal-container .declined-event .fc-title {
+  text-decoration: line-through;
+}
+
+.mb-cal-container .needs-action-event {
+  background-image: repeating-linear-gradient( 45deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 8px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 15px );
+}
+
+.mb-cal-container .mb-header .btns-container {
+  display: flex;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.mb-cal-container .cal-view-type-bar {
+  height: 20px;
+  width: calc(100% - 16px);
+  margin-left: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.mb-cal-container .cal-view-type-bar .cal-view-type-option {
+  flex: 1;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.mb-cal-container .cal-view-type-bar .cal-view-type-option:hover {
+  background-color: #cdefff;
+}
+
+.mb-light-blue {
+  background-color: #cdefff;
+}
+
+.mb-cal-container .cal-today-button-disabled {
+  pointer-events: none;
+  color: #9e9e9e !important;
+}
+
+.mb-cal-container .cal-today-button {
+  text-align: center;
+  height: 100%;
+  width: 52px;
+  border-left: 1px solid #dddddd;
+  color: #4A5357;
+  cursor: pointer;
+  line-height: 46px;
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+}
+
+.mb-cal-container .cal-today-button:hover {
+  color: #68B3FF;
+}
+
+.mb-cal-container .change-week-btn {
+  text-align: center;
+  height: 100%;
+  width: 36px;
+  color: #4A5357;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+}
+
+.mb-cal-container .change-week-btn:hover {
+  color: #68B3FF;
+}
+
+.mb-cal-container .cal-header-divider {
+  text-align: center;
+  height: 30px;
+  width: 1px;
+  border-right: 1px solid #dddddd;
+  margin-top: 8px;
+  color: #4A5357;
+  display: inline-block;
+  float: left;
+}
+
+.mb-cal-container .expanded-mode-view-type-bar-container {
+  width: 180px;
+  float: right;
+  padding-top: 4px;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 1px solid #ddd;
+}
+
+.mb-week-view-mode .schedule-meeting-container {
+  width: 240px;
+  right: 0px;
+  border-left: 1px solid #ddd;
+  border-top-left-radius: 3px;
+}
+
+.mb-week-view-mode .mb-fullcalendar-container {
+  height: calc(100vh - 60px) !important;
+  margin-top: 45px;
+}
+
+.mb-week-view-mode .fc-header-toolbar {
+  display: initial !important;
+  position: absolute;
+  top: 0px;
+  right: 240px;
+  z-index: 2;
+  height: 45px;
+}
+
+.mb-week-view-mode .fc-header-toolbar .fc-right {
+  height: 45px;
+  margin-right: 15px;
+}
+
+.mb-week-view-mode .fc-header-toolbar .fc-right h2 {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 45px;
+  color: #4A5357;
+}
+
+.mb-week-view-mode .user-timezone-container {
+  position: absolute;
+  z-index: 2;
+  top: 45px;
+  border-right: none;
+  height: 41px;
+  width: 48px;
+}
+
+.mb-week-view-mode .user-timezone-container .fa-globe {
+  margin-top: 4px;
+  width: 100%;
+}
+
+.mb-week-view-mode .user-timezone-container div {
+  width: 100%;
+}
+
+.mb-week-view-mode .mb-toggle-calendars-section {
+  width: 240px;
+  top: 46px;
+  height: calc(100% - 106px);
+}
+
+.mb-week-view-mode .toggle-calendars-btn {
+  height: 100%;
+  width: 50px;
+  flex: 1;
+}
+
+.mb-cal-container .wide-text {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.mb-cal-container.mb-week-view-mode .mb-fullcalendar-container .fc-time-grid-event {
+  max-width: 86px;
+}
+
+.mb-week-view-mode.mb-meet-mode .mb-fullcalendar-container .fc-time-grid-event {
+  max-width: 62px !important; 
+}
+  
+.mb-week-view-mode.mb-meet-mode .mb-fullcalendar-container {
+  width: calc(100% - 180px);
+}
+
+.mb-week-view-mode.mb-meet-mode .schedule-meeting-container {
+  right: 181px;
+}
+
+.mb-cal-container .bordered-text {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 13px;
+  background-color: white;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+}
+
+.mb-cal-container .bordered-text:hover {
+  color: #68B4FF;
+}
+
+.mb-dropdown {
+  height: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #4A5357;
+}
+
+.mb-dropdown .mb-dropdown-option {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.mb-dropdown .mb-dropdown-option:hover {
+  color: #68B3FF;
+}
+
+.mb-cal-insert-slots-mode {
+  z-index: 100;
+  box-shadow: 0 8px 20px rgba(0,0,0,.4);
+}

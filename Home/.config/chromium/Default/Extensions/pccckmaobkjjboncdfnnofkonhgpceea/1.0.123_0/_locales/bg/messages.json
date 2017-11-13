@@ -1,0 +1,106 @@
+{
+   "extName": {
+      "description": "Extension name",
+      "message": "Hover Zoom+"
+   },
+   "extShortName": {
+      "description": "Short extension name",
+      "message": "HoverZoom"
+   },
+   "optAlwaysPreload": {
+      "description": "[options] Automatically preload zoomed images option",
+      "message": "Автоматично презареждане на увеличените изображения"
+   },
+   "optButtonAddSite": {
+      "description": "[options] Button for adding a site on sites option page",
+      "message": "Добавяне"
+   },
+   "optButtonSave": {
+      "description": "[options] Save button label",
+      "message": "Запис"
+   },
+   "optCaptionLocationAbove": {
+      "description": "[options] Caption location option to put captions above the image",
+      "message": "Отгоре"
+   },
+   "optCaptionLocationBelow": {
+      "description": "[options] Caption location option to put captions below the image",
+      "message": "Отдолу"
+   },
+   "optCenterImages": {
+      "description": "[options] Center images in the middle of the page option",
+      "message": "Центриране на изображения"
+   },
+   "optDurationUnitName": {
+      "description": "[options] Short form of \"second\" for delay duration",
+      "message": "сек."
+   },
+   "optFooterSourceCode": {
+      "description": "[options] Source code link in page footer",
+      "message": "Изходен код"
+   },
+   "optFooterVersionCopyright": {
+      "description": "[options] Copyright and version number in page footer",
+      "message": "Версия $1 - © 2014-2016 Олег Анашкин"
+   },
+   "optOpacityUnitName": {
+      "description": "[options] Unit name (percentage) for opacity option",
+      "message": "%"
+   },
+   "optOpenImageInTabKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Отваряне на изображение в ново табло"
+   },
+   "optPageAdvanced": {
+      "description": "[options] Page title for advanced options",
+      "message": "Разширени"
+   },
+   "optPageGeneral": {
+      "description": "[options] Page title for general options",
+      "message": "Общи"
+   },
+   "optPagePlugins": {
+      "description": "[options] Page title for plugin options",
+      "message": "Приставки"
+   },
+   "optPageSites": {
+      "description": "[options] Page title for site options",
+      "message": "Сайтове"
+   },
+   "optPlugins": {
+      "description": "[options] Section which contains checkboxes for disabling plugins",
+      "message": "Включване/изключване на отделни приставки"
+   },
+   "optSaveImageKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Запазване на изображението"
+   },
+   "optSectionAdvanced": {
+      "description": "[options] Page section for advanced options",
+      "message": "Допълнителни опции"
+   },
+   "optSectionVideo": {
+      "description": "[options] Page section for video options",
+      "message": "Видео"
+   },
+   "optSectionView": {
+      "description": "[options] Page section for view options",
+      "message": "Преглед"
+   },
+   "optVideoPositionStepUnitName": {
+      "description": "[options] Unit name (seconds) for changing video position option",
+      "message": "сек"
+   },
+   "optVideoVolumeUnitName": {
+      "description": "[options] Unit name (percentage) for video volume option",
+      "message": "%"
+   },
+   "popMoreOptions": {
+      "description": "[popup] More options",
+      "message": "Още опции"
+   },
+   "popPreloadingImages": {
+      "description": "[popup] Preloading zoomed images",
+      "message": "Предварително зареждане..."
+   }
+}

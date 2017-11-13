@@ -1,0 +1,366 @@
+{
+   "extDescription": {
+      "description": "Extension description in Chrome webstore (max. 132 characters)",
+      "message": "بزرگنمایی عکس/فیلم در تمام وب سایت های دلخواه (فیس بوک، آمازون، و غیره). به سادگی ماوس خود را روی تصویر حرکت دهید و آن را بزرگ ببید."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "زوم شناور+"
+   },
+   "extShortName": {
+      "description": "Short extension name",
+      "message": "زوم شناور"
+   },
+   "extUpdated": {
+      "description": "Extension update notification",
+      "message": "زوم شناور+ به روز شده است"
+   },
+   "optActionKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "اگر کلید تنظیم شده است، تنها زمانی که این کلید را نگه دارید زوم شناو+ فعال خواهد شد."
+   },
+   "optActionKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "فعال کردن زوم شناور+"
+   },
+   "optAddToHistory": {
+      "description": "[options] Add viewed pictures to the browser's history option",
+      "message": "تصاویر دیده شده به تاریخچه مرورگر اضافه شود"
+   },
+   "optAlwaysPreload": {
+      "description": "[options] Automatically preload zoomed images option",
+      "message": "به طور خودکار بزرگنمایی تصاویر را بارگیری اولیه نکند"
+   },
+   "optButtonAddSite": {
+      "description": "[options] Button for adding a site on sites option page",
+      "message": "اضافه کردن"
+   },
+   "optButtonReset": {
+      "description": "[options] Reset button label",
+      "message": "تنظیم مجدد"
+   },
+   "optButtonSave": {
+      "description": "[options] Save button label",
+      "message": "ذخیره کردن"
+   },
+   "optDisableMouseWheelForVideo": {
+      "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos",
+      "message": "چرخ را به حرکت در فیلم (عمل کلید هنوز هم کار می کنند) استفاده کنید"
+   },
+   "optDisableMouseWheelForVideoTooltip": {
+      "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos",
+      "message": "پیمایش ها اما پرش به جلو/عقب در فیلم ها نیست"
+   },
+   "optDisplayDelay": {
+      "description": "[options] Delay before displaying a picture option",
+      "message": "تاخیر قبل از نمایش تصویر:"
+   },
+   "optDisplayDelayVideo": {
+      "description": "[options] Delay before displaying a video option",
+      "message": "تاخیر قبل از نمایش فیلم:"
+   },
+   "optDurationUnitName": {
+      "description": "[options] Short form of \"second\" for delay duration",
+      "message": "ثانیه"
+   },
+   "optEnableAmbilight": {
+      "description": "[options] Enable ambient light behind images option",
+      "message": "فعال کردن نور محیط پشت تصاویر"
+   },
+   "optEnableAmbilightTooltip": {
+      "description": "[options] Tooltip for enable ambient light behind images option",
+      "message": "ایجاد اثر ظریف براق شبیه به تکنولوژی Ambilight فیلیپس."
+   },
+   "optEnableGalleries": {
+      "description": "[options] Enable albums support option",
+      "message": "فعال کردن پشتیبانی از آلبوم"
+   },
+   "optExtensionEnabled": {
+      "description": "[options] Enable Hover Zoom+ option",
+      "message": "شناور زوم را قادر می سازد"
+   },
+   "optFadeDuration": {
+      "description": "[options] Fading animation duration option",
+      "message": "مدت زمان انیمیشن محو می شود:"
+   },
+   "optFilterNSFW": {
+      "description": "[options] Exclude NSFW images (Reddit only) option",
+      "message": "حذف تصاویر گفتگو آزاد (ق)"
+   },
+   "optFooterReportIssue": {
+      "description": "[options] Report a bug link in page footer",
+      "message": "گزارش اشکال"
+   },
+   "optFooterSourceCode": {
+      "description": "[options] Source code link in page footer",
+      "message": "منبع کد"
+   },
+   "optFooterVersionCopyright": {
+      "description": "[options] Copyright and version number in page footer",
+      "message": "Version $1 - © 2014-2016 Oleg Anashkin"
+   },
+   "optFullZoomKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "زمانی که این کلید را بزنید، تصویر با استفاده از تمام فضای نمایش داده می شود. مفید برای تصاویر با وضوح بالا تنها."
+   },
+   "optFullZoomKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "فعال کردن کامل زوم"
+   },
+   "optGalleriesMouseWheel": {
+      "description": "[options] Use mousewheel to navigate albums option",
+      "message": "استفاده از چرخ ماوس برای حرکت در آلبوم"
+   },
+   "optGalleriesMouseWheelTooltip": {
+      "description": "[options] Tooltip for use mousewheel to navigate albums option",
+      "message": "حرکت در آلبوم با چرخ ماوس"
+   },
+   "optHideKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "این کلید را پایین نگه بزرگنمایی تصویر را مخفی می کند. استفاده از آن هنگامی که تصویر پنهان عناصر است که همچنین خلاصه نمایش داده می شوند."
+   },
+   "optHideKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "شناور زوم + غیر فعال کردن"
+   },
+   "optMouseUnderlap": {
+      "description": "[options] Extend zoomed images below the mouse cursor option",
+      "message": "گسترش بزرگنمایی تصاویر زیر نشانگر ماوس"
+   },
+   "optMouseUnderlapTooltip": {
+      "description": "[options] Tooltip for extend zoomed images below the mouse cursor option",
+      "message": "اگر بزرگنمایی تصاویر بدون کنترل تغییر اندازه پیدا کرد"
+   },
+   "optMuteVideos": {
+      "description": "[options] Mute zoomed videos option",
+      "message": "قطع فیلم های بزرگنمایی"
+   },
+   "optMuteVideosTooltip": {
+      "description": "[options] Tooltip for mute zoomed videos option",
+      "message": "غیر فعال کردن صدا در فیلم های بزرگنمایی"
+   },
+   "optNextImgKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "فشار این کلید برای مشاهده تصویر بعدی در گالری."
+   },
+   "optNextImgKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "مشاهده تصویر بعدی در گالری"
+   },
+   "optOpacityUnitName": {
+      "description": "[options] Unit name (percentage) for opacity option",
+      "message": "%"
+   },
+   "optOpenImageInTabKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "فشار کلید تصویر فعلی را در زبانه جدید باز میکند. دوباره فشار دهید تا زبانه بسته شود. فشار کلید+shift در پس زمینه باز میکند."
+   },
+   "optOpenImageInTabKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "باز کردن تصویر در زبانه جدید"
+   },
+   "optOpenImageInWindowKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "فشار این کلید برای باز کردن تصویر در حال حاضر در یک پنجره جدید مشاهده می کنید. فشار این کلید دوباره پنجره را ببندید."
+   },
+   "optOpenImageInWindowKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "باز کردن تصویر در پنجره جدید"
+   },
+   "optPageActionEnabled": {
+      "description": "[options] Show icon in address bar option",
+      "message": "نمایش آیکون در نوار آدرس"
+   },
+   "optPageActionEnabledTooltip": {
+      "description": "[options] Tooltip for show icon in address bar option",
+      "message": "فقط زمانی که تصاویر زوم میشود"
+   },
+   "optPageActionKeys": {
+      "description": "[options] Page title for action key options",
+      "message": "کلید"
+   },
+   "optPageAdvanced": {
+      "description": "[options] Page title for advanced options",
+      "message": "پیشرفته"
+   },
+   "optPageGeneral": {
+      "description": "[options] Page title for general options",
+      "message": "عمومی"
+   },
+   "optPagePlugins": {
+      "description": "[options] Page title for plugin options",
+      "message": "پلاگین ها"
+   },
+   "optPageSites": {
+      "description": "[options] Page title for site options",
+      "message": "سایت های"
+   },
+   "optPicturesOpacity": {
+      "description": "[options] Zoomed pictures opacity option",
+      "message": "شفافیت بزرگنمایی تصاویر:"
+   },
+   "optPlugins": {
+      "description": "[options] Section which contains checkboxes for disabling plugins",
+      "message": "فعال کردن/غیرفعال کردن افزونه های خاص"
+   },
+   "optPrevImgKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "فشار این کلید به مشاهده تصویر قبلی در گالری."
+   },
+   "optPrevImgKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "مشاهده تصویر قبلی در گالری"
+   },
+   "optSaveImageKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "فشار این کلید برای ذخیره کردن تصویر فعلی."
+   },
+   "optSaveImageKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "ذخیره تصویر"
+   },
+   "optSaved": {
+      "description": "[options] Notification after saving options",
+      "message": "گزینه ها ذخیره شد. در برخی از تنظیمات ممکن است نیازبه بارگزاری مجدد صفحه باشد."
+   },
+   "optSectionAdvanced": {
+      "description": "[options] Page section for advanced options",
+      "message": "گزینه های پیشرفته"
+   },
+   "optSectionDelays": {
+      "description": "[options] Page section for delay options",
+      "message": "تاخیر"
+   },
+   "optSectionSitesDisabled": {
+      "description": "[options] Page section for enabling extension for specific sites",
+      "message": "آدرس های اینترنتی که شناور زوم + غیر فعال شود"
+   },
+   "optSectionSitesEnabled": {
+      "description": "[options] Page section for enabling extension for specific sites",
+      "message": "آدرس های اینترنتی که شناور زوم + باید فعال باشد"
+   },
+   "optSectionVideo": {
+      "description": "[options] Page section for video options",
+      "message": "ویدیو"
+   },
+   "optSectionView": {
+      "description": "[options] Page section for view options",
+      "message": "مشاهده"
+   },
+   "optShowHighRes": {
+      "description": "[options] Show high resolution pictures when available option",
+      "message": "نمایش تصاویر با وضوح بالا در صورت دسترسی"
+   },
+   "optShowHighResTooltip": {
+      "description": "[options] Tooltip for show high resolution pictures when available option",
+      "message": "ممکن است زمان بیشتری برای بارگذاری تصاویر نیاز باشد"
+   },
+   "optShowLastUpdateNotification": {
+      "description": "[options] Show last update notification",
+      "message": "(نمایش آخرین اطلاع رسانی)"
+   },
+   "optShowWhileLoading": {
+      "description": "[options] Show zoomed pictures while loading option",
+      "message": "نمایش تصاویر در حال بارگذاری"
+   },
+   "optShowWhileLoadingTooltip": {
+      "description": "[options] Tooltip for show zoomed pictures while loading option",
+      "message": "نمایش تصویر قبل از بارگزاری کامل تصویر"
+   },
+   "optSiteDisclaimer": {
+      "description": "[options] Disclaimer on the sites option page",
+      "message": "آگاه باشید که دامنه فیلتر تداخل می شود. مثال: اگر شما \"picasaweb.google.com\" و \"google.com\" فیلتر شده اند، همانطور که آن را هنوز هم توسط فیلتر \"google.com\" حذف \"picasaweb.google.com\" از بین بردن نه Picasa Web Albums دوباره فعال کردن خواهد شد."
+   },
+   "optSitePlaceholder": {
+      "description": "[options] Placeholder for a site url input box",
+      "message": "مثال: facebook.com، google.com/reader"
+   },
+   "optTitle": {
+      "description": "[options] Page title",
+      "message": "گزینه های زوم شناور+"
+   },
+   "optUpdateNotifications": {
+      "description": "[options] Show update notifications option",
+      "message": "نمایش اطلاعیه های به روز رسانی"
+   },
+   "optVideoPositionStep": {
+      "description": "[options] Changing video position amount option",
+      "message": "استفاده از اخير اقدام کلید (یا چرخ) برای تغییر موقعیت های ویدئو توسط"
+   },
+   "optVideoPositionStepTooltip": {
+      "description": "[options] Tooltip for changing video position option",
+      "message": "کلیپ پرش عقب یا جلو این مقدار از ثانیه"
+   },
+   "optVideoPositionStepUnitName": {
+      "description": "[options] Unit name (seconds) for changing video position option",
+      "message": "ثانیه"
+   },
+   "optVideoVolume": {
+      "description": "[options] Audio volume for unmuted videos option",
+      "message": "صدا از فیلم unmuted:"
+   },
+   "optVideoVolumeTooltip": {
+      "description": "[options] Tooltip for audio volume for unmuted videos option",
+      "message": "اگر ویدیو به طور کامل خاموش است، حجم قرار دارد این درصد (0-100)"
+   },
+   "optVideoVolumeUnitName": {
+      "description": "[options] Unit name (percentage) for video volume option",
+      "message": "%"
+   },
+   "optWhitelistMode": {
+      "description": "[options] Whitelist mode checkbox",
+      "message": "حالت لیست سفید"
+   },
+   "optWhitelistModeTooltip": {
+      "description": "[options] Tooltip for whitelist mode checkbox",
+      "message": "تنها فعال شناور زوم + برای سایت های زیر"
+   },
+   "optZoomFactor": {
+      "description": "[options] Adjust the size of zoomed images option",
+      "message": "بزرگنمایی توسط این عامل:"
+   },
+   "optZoomFactorTooltip": {
+      "description": "[options] Tooltip for adjust the size of zoomed images option",
+      "message": "مقدار اندازه بزرگنمایی تصاویر"
+   },
+   "optZoomFactorUnitName": {
+      "description": "[options] Unit name (percentage) for zoomed images size option",
+      "message": "بار/دفعه"
+   },
+   "optZoomVideos": {
+      "description": "[options] Zoom videos (WebM, MP4) option",
+      "message": "بزرگنمایی فیلم (WebM، MP4)"
+   },
+   "optZoomVideosTooltip": {
+      "description": "[options] Tooltip for zoom videos (WebM, MP4) option",
+      "message": "بزرگنمایی فیلم (WebM، MP4)"
+   },
+   "popAllowPerSiteToggle": {
+      "description": "[popup] Allow per-site extension configuration",
+      "message": "تنظیمات فرمت در سایت مجاز است"
+   },
+   "popDisableForAllSites": {
+      "description": "[popup] Disable the extension",
+      "message": "غیر فعال کردن برای همه سایت ها"
+   },
+   "popDisableForSite": {
+      "description": "[popup] Disables the extension for a specific site",
+      "message": "غیر فعال کردن $ 1"
+   },
+   "popEnableForSite": {
+      "description": "[popup] Enables the extension for a specific site",
+      "message": "فعال کردن $ 1"
+   },
+   "popMoreOptions": {
+      "description": "[popup] More options",
+      "message": "سایر گزینه‌ها"
+   },
+   "popPreloadImages": {
+      "description": "[popup] Preload zoomed images",
+      "message": "بزرگنمایی تصاویر"
+   },
+   "popPreloadingImages": {
+      "description": "[popup] Preloading zoomed images",
+      "message": "در حال بارگزاری..."
+   }
+}

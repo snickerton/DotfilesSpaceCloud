@@ -1,0 +1,355 @@
+.meet-link-creator {
+  width: 180px;
+  right: 0px;
+  top: 45px;
+  height: calc(100% - 105px);
+  position: absolute;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  overflow: scroll;
+}
+
+.meet-link-creator .title {
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.meet-link-creator .wide-input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.meet-link-creator .wide-input:focus {
+  border-color: #68B4FF;
+}
+
+.meet-link-creator .guide-text {
+  font-size: 13px;
+  text-align: center;
+  color: #68B4FF;
+  margin-top: 5px;
+}
+
+.meet-link-creator .checkbox-item input {
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.meet-link-creator .checkbox-item div {
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.meet-link-creator .checkbox-item .fa-question-circle {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.meet-link-creator .option {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 0px;
+}
+
+.meet-link-creator .option-label {
+  font-size: 13px;
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.meet-link-creator .toggle-text {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  font-size: 13px;
+  padding-left: 7px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.meet-link-creator .no-blocks-text {
+  display: inline-block;
+  float: left;
+  font-size: 11px;
+  margin-top: 7px;
+  margin-left: 10px;
+  width: 60px;
+}
+
+.meet-link-creator .create-meet-link-button {
+  display: inline-block;
+  float: left;
+  background-color: white;
+  background-image: linear-gradient(to top right,rgba(0, 169, 255, 0.8) 0, rgba(22, 232, 186, 0.8) 100%);
+  line-height: 30px;
+  height: 30px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color .25s;
+  width: 100%;
+}
+
+.meet-link-creator .create-meet-link-button:hover {
+  background-color: #004175;
+}
+
+.meet-link-creator .cancel-button {
+  display: inline-block;
+  float: left;
+  background-color: #A8A8AC;
+  line-height: 30px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color .25s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.meet-link-creator .cancel-button:hover {
+  background-color: #818184;
+}
+
+.meet-link-creator .bird-gif {
+  height: 50px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+.meet-link-creator .loading-text {
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  font-size: 14px;
+}
+
+.wide-select .select2-container--default li {
+  font-size: 12px !important;
+}
+
+.meet-link-creator .select2-container--default .select2-selection--single {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.meet-link-creator .select2-container .select2-selection--single {
+  height: 25px;
+  font-size: 13px;
+}
+
+
+.meet-link-creator .select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #4a5357;
+  line-height: 25px;
+}
+
+.meet-link-creator .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 23px;
+}
+
+.meet-link-creator .select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #aaa transparent transparent transparent;
+}
+
+.meet-link-creator .check-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-image: linear-gradient(to top right,rgba(0, 169, 255, 0.8) 0, rgba(22, 232, 186, 0.8) 100%);
+  margin-left: calc(50% - 15px);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  float: left;
+}
+
+.meet-link-creator .check-circle .fa-check {
+  line-height: 30px;
+}
+
+.meet-link-creator .instructions-text {
+  display: inline-block;
+  float: left;
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+}
+
+.meet-link-creator .link-box {
+  display: inline-block;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  border: 1px solid #68b3ff;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.meet-link-creator .link-box:hover {
+  color: #68b3ff;
+}
+
+.meet-link-creator .copy-button {
+  display: inline-block;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-top: 10px;
+  background-color: white;
+  background-image: linear-gradient(to top right,rgba(0, 169, 255, 0.8) 0, rgba(22, 232, 186, 0.8) 100%);
+  color: white;
+  transition: background-color .25s;
+  cursor: pointer;
+}
+
+.meet-link-creator .copy-button:hover {
+  background-color: #004175;
+}
+
+.meet-link-creator .edit-location-section input {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  line-height: 19px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  width: 150px;
+}
+
+.meet-link-creator .edit-location-section .fa-times {
+  cursor: pointer;
+}
+
+.meet-link-creator .setup-preferences-text {
+  display: inline-block;
+  float: left;
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.meet-link-creator .option .fa-pencil {
+  display: inline-block;
+  font-size: 12px;
+  float: right;
+  margin-top: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 26px;
+}
+
+.meet-link-creator .location-type-select {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  background-color: white;
+  font-size: 13px;
+  line-height: 25px;
+  height: 25px;
+  width: 100%;
+  color: #4b5358;
+  outline: none;
+}
+
+.meet-link-creator .fa-pencil:hover {
+  color: #68b3ff;
+}
+
+.meet-link-creator .guide-text .copy-selections-text {
+  color: #a8a8ac;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.meet-link-creator .guide-text .copy-selections-text:hover {
+  color: #68B4FF;
+}
+
+.meet-link-creator .center-text-button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: underline;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.meet-link-creator .option textarea {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.meet-link-creator .option textarea:focus {
+  border-color: #68B4FF;
+}
+
+.mlc-calendars-popover {
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  max-height: 205px;
+  z-index: 101;
+}
+
+.mlc-calendars-popover .toggle-calendars-section {
+  max-height: 100% !important;
+}
+
+.Popover-tip {
+  fill: #ddd;
+}

@@ -1,0 +1,64 @@
+urxvt.scrollBar: false
+urxvt.transparent: true
+urxvt.shading: 20
+
+!urxvt.tintColor: #002b36
+!urxvt.inheritPixmap: true
+!urxvt.depth: 32
+
+urxvt.keysym.Control-Shift-V: perl:clipboard:paste
+urxvt.iso14755: False
+urxvt.perl-ext-common: default,clipboard
+
+!Fonts
+
+urxvt.font: xft:Ubuntu Mono:pixelsize=15,style=regular
+urxvt.boldFont: xft:Ubuntu Mono:pixelsize=15,style=bold
+urxvt.letterSpace: -1
+
+
+Xft.dpi: 96	
+Xft.antialias: true
+Xft.rbga: none
+Xft.hintstyle: hintfull
+Xft.hinting: true
+
+
+! special
+urxvt.foreground:   #7796B1
+!doesnt work because urxvt.transparent and tintcolor
+urxvt.background:   #002b36
+urxvt.cursorColor:  #7796B1
+
+! black
+urxvt.color0:       #002b36
+urxvt.color8:       #657b83
+
+! red
+urxvt.color1:       #dc322f
+urxvt.color9:       #dc322f
+
+! green
+urxvt.color2:       #859900
+urxvt.color10:      #859900
+
+! yellow
+urxvt.color3:       #b58900
+urxvt.color11:      #b58900
+
+! blue
+urxvt.color4:       #268bd2
+urxvt.color12:      #268bd2
+
+! magenta
+urxvt.color5:       #6c71c4
+urxvt.color13:      #6c71c4
+
+! cyan
+urxvt.color6:       #2aa198
+urxvt.color14:      #2aa198
+
+! white
+urxvt.color7:       #93a1a1
+urxvt.color15:      #fdf6e3
+

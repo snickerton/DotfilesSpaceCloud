@@ -1,0 +1,604 @@
+.mb-gcal-sidebar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 99;
+  background-color: white;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 230px;
+  height: calc(100vh - 60px);
+  color: #4A5357;
+}
+
+.mb-gcal-sidebar div:focus {
+  outline: none !important;
+}
+
+.mb-gcal-sidebar span:focus {
+  outline: none !important;
+}
+
+.mb-gcal-sidebar input:focus {
+  outline: none !important;
+}
+
+.mb-gcal-sidebar-collapsed {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.mb-gcal-sidebar-collapsed .fa-long-arrow-left {
+  line-height: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 4px;
+  font-size: 16px;
+  color: #6d6d6d;
+}
+
+.mb-gcal-sidebar-collapsed .fa-long-arrow-left:hover {
+  color: #68B4FF;
+}
+
+.mb-gcal-sidebar-collapsed img {
+  height: 30px;
+}
+
+.ep .ep-ea {
+  padding-right: 50px !important;
+}
+
+.ep-main.fat .ep-dp {
+  width: 600px !important;
+}
+
+.mb-gcal-sidebar ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.mb-gcal-sidebar .mb-main-content {
+  height: calc(100% - 50px);
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.mb-gcal-sidebar .mb-section-label {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  background-color: #F3F6FB;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.mb-gcal-sidebar .mb-section-label:hover {
+  color: #68B4FF;
+}
+
+.mb-gcal-sidebar .mb-section-label .fa-caret-up {
+  height: 100%;
+  float: left;
+  line-height: 28px;
+  font-size: 18px;
+  float: left;
+  margin-right: 8px;
+}
+
+.mb-gcal-sidebar .mb-contacts-finder {
+  width: calc(100% - 16px);
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.mb-gcal-sidebar .mb-contacts-finder .Select-control {
+  border-radius: 3px;
+  border-color: #dddddd;
+}
+
+.mb-gcal-sidebar .meeting-history-bar {
+  padding: 8px;
+}
+
+.mb-gcal-sidebar .meeting-history-bar .summary-text {
+  line-height: 30px;
+}
+
+.mb-gcal-sidebar .meeting-history-bar .results-container {
+}
+
+.mb-gcal-sidebar .meeting-history-bar .results-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 3px;
+}
+
+.mb-gcal-sidebar .meeting-history-bar .results-container::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #CACACA;
+    -webkit-box-shadow: 0 0 1px #CACACA;
+}
+
+.mb-gcal-sidebar .meeting-history-bar .result {
+  width: 100%;
+  background-color: #f3f6fb;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  font-size: 11px;
+  word-break: break-word;
+}
+
+.mb-gcal-sidebar .meeting-history-bar .standard-input {
+  display: inline-block;
+  line-height: 25px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.mb-gcal-sidebar .meeting-history-bar .select2-selection--single {
+  border-color: #ddd;
+}
+
+.mb-gcal-sidebar .mb-contacts-finder .Select-placeholder {
+  padding-left: 7px;
+}
+
+.mb-gcal-sidebar .attendee-token {
+  background-color: rgb(242, 249, 252);
+  color: rgb(0, 136, 204);
+  display: inline-block;
+  font-size: 0.9em;
+  margin-top: 5px;
+  vertical-align: top;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(201, 230, 242);
+  border-image: initial;
+  max-width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.mb-gcal-sidebar .attendee-token .icon {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border-right: 1px solid rgb(201, 230, 242);
+  padding: 1px 5px 3px;
+}
+
+.mb-gcal-sidebar .attendee-token .email {
+  max-width: 250px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  cursor: default;
+  padding: 2px 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mb-gcal-sidebar .attendee-tokens-container {
+  display: block;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.mb-gcal-sidebar .mb-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.mb-gcal-sidebar  .mb-footer .fa-long-arrow-right {
+  line-height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.mb-gcal-sidebar  .mb-footer .fa-long-arrow-right:hover {
+  color: #68B4FF;
+}
+
+.mb-gcal-sidebar .mb-footer .footer-logo {
+  height: 30px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.mb-gcal-sidebar .timezones-section {
+  position: relative;
+}
+
+.mb-gcal-sidebar .timezones-section .change-timezone-text {
+  width: 100%;
+  line-height: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mb-gcal-sidebar .mb-back-button {
+  left: 6px;
+  font-size: 12px;
+  top: 7px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.mb-gcal-sidebar .mb-back-button:hover {
+  color: #68B4FF;
+}
+
+.mb-gcal-sidebar .user-timezone-popover-container {
+  display: inline-block;
+  border-top: 1px solid #ddd;
+  overflow-x: hidden;
+}
+
+.mb-gcal-sidebar .user-timezone-popover-container .current-zone-row {
+  width: 220px;
+  font-size: 12px;
+}
+
+.mb-gcal-sidebar .user-timezone-popover-container .current-zone-row td {
+  width: 220px;
+}
+
+.mb-gcal-sidebar .user-timezone-popover-container .zone-row {
+  font-size: 12px;
+  width: 220px;
+}
+
+.mb-gcal-sidebar .user-timezone-popover-container .zone-row td {
+  width: 220px;
+}
+
+.mb-gcal-sidebar .user-timezone-popover-container .zone-text {
+  padding-left: 2px;
+  width: 70%;
+}
+
+.mb-gcal-sidebar .curr-timezone-text {
+  line-height: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.mb-gcal-sidebar .timezone-text {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.mb-gcal-sidebar .simple-button {
+  display: inline-block;
+  padding: 5px;
+  background-color: #f3f6fb;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.mb-gcal-sidebar .simple-button:hover {
+  border-color: #68B4FF;
+}
+
+.mb-gcal-sidebar .padding-section {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.mb-gcal-sidebar .pick-calendar-container {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.mb-gcal-sidebar .sign-in-content {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-top: 15px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  height: calc(100% - 30px);
+  box-sizing: border-box;
+}
+
+.mb-gcal-sidebar .sign-in-btn {
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  box-sizing: border-box;
+  background-color: #68b3ff;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color .25s;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.mb-gcal-sidebar .sign-in-btn:hover {
+  background-color: #1d82e8;
+}
+
+.mb-gcal-sidebar .sign-in-content .sign-in-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 13px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.mb-gcal-sidebar .activity-section {
+  padding: 8px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.mb-gcal-sidebar .activity-section .summary-text {
+  width: 100%;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.mb-gcal-sidebar .activity-section .modification {
+  width: 100%;
+  background-color: #f3f6fb;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.mb-gcal-sidebar .activity-section .modification-header {
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  background-color: #eaeaea;
+  line-height: 20px;
+}
+
+.mb-gcal-sidebar .activity-section .date-section {
+  width: 45%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mb-gcal-sidebar .activity-section .fa-long-arrow-right {
+  width: 10%;
+  display: inline-block;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+}
+
+.mb-gcal-sidebar .activity-section .context-text {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  color: grey;
+  font-size: 11px;
+  margin-bottom: 5px;
+  word-break: break-word;
+}
+
+.mb-gcal-sidebar .map-section-input {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.mb-gcal-sidebar .map-section-input .fa {
+  width: 30px;
+  text-align: center;
+}
+
+.mb-gcal-sidebar .location-autocomplete-container {
+  width: 185px;
+  display: inline-block;
+}
+
+.mb-gcal-sidebar .location-autocomplete-container .react-autosuggest__container {
+  width: 100%;
+}
+
+.mb-gcal-sidebar .location-autocomplete-container .react-autosuggest__container input {
+  height: 25px;
+  line-height: 25px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.mb-gcal-sidebar .location-autocomplete-container .clear-location-button {
+  position: absolute;
+  right: 0px;
+  top: 6px;
+}
+
+.mb-gcal-sidebar .location-autocomplete-container .clear-location-button .fa-times {
+  width: 10px;
+} 
+
+.mb-gcal-sidebar .confirmation-view .check-circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 30px;
+  line-height: 40px;
+  background-image: linear-gradient(to top right,rgba(0, 169, 255, 0.8) 0, rgba(22, 232, 186, 0.8) 100%);
+  text-align: center;
+  color: white;
+  margin: 15px auto;
+}
+
+.mb-gcal-sidebar .confirmation-view .check-circle .fa-check {
+  line-height: 40px;
+  font-size: 22px;
+}
+
+.mb-option-row {
+  display: inline-block;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  line-height: 25px;
+  height: 25px;
+}
+
+.mb-option-row .mb-option-row-title {
+  display: inline-block;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+
+.mb-option-row .mb-option-row-content {
+  display: inline-block;
+  float: left;
+}
+
+.mb-option-row .mb-option-row-content .fa-car {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.mb-option-row .mb-option-row-content .travel-mode-icon {
+  font-size: 20px;
+  color: #ddd;
+  cursor: pointer;
+  margin-right: 14px;
+  line-height: 28px;
+}
+
+.mb-option-row .mb-option-row-content .travel-mode-icon:hover {
+  color: #68B4FF;
+}
+
+.mb-option-row .mb-option-row-content .travel-mode-icon-selected {
+  color: #68B4FF;
+}
+
+.mb-option-row .timepicker-input {
+  float: left;
+  margin-left: 0px !important;
+  width: 60px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  line-height: 22px;
+  padding-left: 5px;
+}
+
+.ui-timepicker-wrapper::-webkit-scrollbar {
+  height: 0px !important;
+  width: 0px !important;
+}
+
+.mb-gcal-sidebar .office-location-section {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  line-height: 30px;
+  border-top: 1px solid #ddd;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+}
+
+.mb-gcal-sidebar .office-location-section .fa-pencil {
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.mb-gcal-sidebar .office-location-section .fa-pencil:hover {
+  color: #68B4FF;
+}
+
+.mb-half-button {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  float: left;
+  line-height: 25px;
+  height: 25px;
+  color: white;
+  border-radius: 3px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.mb-blue-hover {
+  background-color: #68B4FF;
+  color: white;
+  transition: background-color .25s;
+  cursor: pointer;
+}
+
+.mb-blue-hover:hover {
+  background-color: #4699ec;
+}
+
+.mb-grey-hover {
+  background-color: #A8A8AC;
+  color: white;
+  transition: background-color .25s;
+  cursor: pointer;
+}
+
+.mb-grey-hover:hover {
+  background-color: #818184;
+}
+
+.mb-email-reminders-section {
+  padding-left: 30px;
+  margin-bottom: 15px;
+}

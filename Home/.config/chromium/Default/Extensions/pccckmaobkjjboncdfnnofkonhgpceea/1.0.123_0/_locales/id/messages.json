@@ -1,0 +1,374 @@
+{
+   "extDescription": {
+      "description": "Extension description in Chrome webstore (max. 132 characters)",
+      "message": "Zoom gambar/video pada semua situs web favorit (Facebook, Amazon, dll). Cukup Arahkan mouse ke gambar untuk memperbesar."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Hover Zoom+"
+   },
+   "extShortName": {
+      "description": "Short extension name",
+      "message": "HoverZoom"
+   },
+   "extUpdated": {
+      "description": "Extension update notification",
+      "message": "Hover Zoom+ telah diperbarui"
+   },
+   "optActionKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Jika tombol set, Hover Zoom+ hanya akan aktif ketika tombol ini ditekan."
+   },
+   "optActionKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Mengaktifkan Hover Zoom+"
+   },
+   "optAddToHistory": {
+      "description": "[options] Add viewed pictures to the browser's history option",
+      "message": "Tambahkan dilihat gambar untuk sejarah browser"
+   },
+   "optAlwaysPreload": {
+      "description": "[options] Automatically preload zoomed images option",
+      "message": "Secara otomatis preload diperbesar gambar"
+   },
+   "optButtonAddSite": {
+      "description": "[options] Button for adding a site on sites option page",
+      "message": "Tambah"
+   },
+   "optButtonReset": {
+      "description": "[options] Reset button label",
+      "message": "Atur ulang"
+   },
+   "optButtonSave": {
+      "description": "[options] Save button label",
+      "message": "Simpan"
+   },
+   "optDisableMouseWheelForVideo": {
+      "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos",
+      "message": "Jangan menggunakan roda mouse untuk menavigasi dalam video (tombol aksi akan masih bekerja)"
+   },
+   "optDisableMouseWheelForVideoTooltip": {
+      "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos",
+      "message": "Gulir melalui album tapi jangan melompat maju/mundur dalam video"
+   },
+   "optDisplayDelay": {
+      "description": "[options] Delay before displaying a picture option",
+      "message": "Penundaan sebelum menampilkan gambar:"
+   },
+   "optDisplayDelayVideo": {
+      "description": "[options] Delay before displaying a video option",
+      "message": "Penundaan sebelum menampilkan video:"
+   },
+   "optDurationUnitName": {
+      "description": "[options] Short form of \"second\" for delay duration",
+      "message": "detik"
+   },
+   "optEnableAmbilight": {
+      "description": "[options] Enable ambient light behind images option",
+      "message": "Mengaktifkan cahaya ambient di belakang gambar"
+   },
+   "optEnableAmbilightTooltip": {
+      "description": "[options] Tooltip for enable ambient light behind images option",
+      "message": "Membuat efek cahaya halus seperti dengan teknologi Phillips Ambilight."
+   },
+   "optEnableGalleries": {
+      "description": "[options] Enable albums support option",
+      "message": "Mengaktifkan dukungan album"
+   },
+   "optExtensionEnabled": {
+      "description": "[options] Enable Hover Zoom+ option",
+      "message": "Mengaktifkan Hover Zoom"
+   },
+   "optFadeDuration": {
+      "description": "[options] Fading animation duration option",
+      "message": "Durasi animasi memudar:"
+   },
+   "optFilterNSFW": {
+      "description": "[options] Exclude NSFW images (Reddit only) option",
+      "message": "Mengecualikan NSFW gambar (Reddit)"
+   },
+   "optFooterReportIssue": {
+      "description": "[options] Report a bug link in page footer",
+      "message": "Laporkan bug"
+   },
+   "optFooterSourceCode": {
+      "description": "[options] Source code link in page footer",
+      "message": "Sumber kode"
+   },
+   "optFooterVersionCopyright": {
+      "description": "[options] Copyright and version number in page footer",
+      "message": "Versi $1 - © 2014-2016 Oleg Anashkin"
+   },
+   "optFullZoomKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Ketika tombol ini ditekan, gambar yang ditampilkan menggunakan semua ruang yang tersedia. Berguna untuk gambar resolusi tinggi."
+   },
+   "optFullZoomKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Mengaktifkan zoom penuh"
+   },
+   "optGalleriesMouseWheel": {
+      "description": "[options] Use mousewheel to navigate albums option",
+      "message": "Menggunakan roda mouse untuk menavigasi album"
+   },
+   "optGalleriesMouseWheelTooltip": {
+      "description": "[options] Tooltip for use mousewheel to navigate albums option",
+      "message": "Menavigasi album dengan roda mouse"
+   },
+   "optHideKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Memegang kunci ini turun menyembunyikan gambar yang diperbesar. Menggunakannya ketika gambar menyembunyikan elemen yang juga ditampilkan pada mouseover."
+   },
+   "optHideKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Menonaktifkan Hover Zoom+"
+   },
+   "optMouseUnderlap": {
+      "description": "[options] Extend zoomed images below the mouse cursor option",
+      "message": "Memperpanjang gambar yang diperbesar di bawah kursor mouse"
+   },
+   "optMouseUnderlapTooltip": {
+      "description": "[options] Tooltip for extend zoomed images below the mouse cursor option",
+      "message": "Jika dicentang, diperbesar gambar akan diubah ukurannya secara dinamis"
+   },
+   "optMuteVideos": {
+      "description": "[options] Mute zoomed videos option",
+      "message": "Bisu pembesaran video"
+   },
+   "optMuteVideosTooltip": {
+      "description": "[options] Tooltip for mute zoomed videos option",
+      "message": "Menonaktifkan suara dalam video diperbesar"
+   },
+   "optNextImgKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tekan tombol ini untuk melihat gambar berikutnya dalam galeri ini."
+   },
+   "optNextImgKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Lihat gambar berikutnya dalam Galeri"
+   },
+   "optOpacityUnitName": {
+      "description": "[options] Unit name (percentage) for opacity option",
+      "message": "%"
+   },
+   "optOpenImageInTabKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tekan tombol ini untuk membuka gambar yang sedang anda lihat di tab baru. Tekan tombol ini lagi untuk menutup tab. Shift+tombol buka gambar di tab latar belakang."
+   },
+   "optOpenImageInTabKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Buka gambar di tab baru"
+   },
+   "optOpenImageInWindowKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tekan tombol ini untuk membuka gambar yang sedang anda lihat di jendela baru. Tekan tombol ini sekali lagi untuk menutup jendela."
+   },
+   "optOpenImageInWindowKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Gambar terbuka di jendela baru"
+   },
+   "optPageActionEnabled": {
+      "description": "[options] Show icon in address bar option",
+      "message": "Menampilkan ikon di bilah alamat"
+   },
+   "optPageActionEnabledTooltip": {
+      "description": "[options] Tooltip for show icon in address bar option",
+      "message": "Hanya ketika gambar dapat diperbesar"
+   },
+   "optPageActionKeys": {
+      "description": "[options] Page title for action key options",
+      "message": "Tombol tindakan"
+   },
+   "optPageAdvanced": {
+      "description": "[options] Page title for advanced options",
+      "message": "Opsi Lanjutan"
+   },
+   "optPageGeneral": {
+      "description": "[options] Page title for general options",
+      "message": "Umum"
+   },
+   "optPagePlugins": {
+      "description": "[options] Page title for plugin options",
+      "message": "Pengelolaan Plugin"
+   },
+   "optPageSites": {
+      "description": "[options] Page title for site options",
+      "message": "Situs"
+   },
+   "optPicturesOpacity": {
+      "description": "[options] Zoomed pictures opacity option",
+      "message": "Gambar yang diperbesar opacity:"
+   },
+   "optPlugins": {
+      "description": "[options] Section which contains checkboxes for disabling plugins",
+      "message": "Mengaktifkan/menonaktifkan plugin tertentu"
+   },
+   "optPrevImgKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tekan tombol ini untuk melihat gambar sebelumnya di sebuah galeri."
+   },
+   "optPrevImgKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Lihat gambar sebelumnya di galeri"
+   },
+   "optSaveImageKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tekan tombol ini untuk menyimpan gambar yang sedang anda lihat."
+   },
+   "optSaveImageKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Simpan gambar"
+   },
+   "optSaved": {
+      "description": "[options] Notification after saving options",
+      "message": "Opsi disimpan. Beberapa pengaturan mungkin perlu refresh halaman."
+   },
+   "optSectionAdvanced": {
+      "description": "[options] Page section for advanced options",
+      "message": "Opsi lanjutan"
+   },
+   "optSectionDelays": {
+      "description": "[options] Page section for delay options",
+      "message": "Penundaan"
+   },
+   "optSectionSitesDisabled": {
+      "description": "[options] Page section for enabling extension for specific sites",
+      "message": "URL yang Hover Zoom + harus diaktifkan"
+   },
+   "optSectionSitesEnabled": {
+      "description": "[options] Page section for enabling extension for specific sites",
+      "message": "URL yang Hover Zoom + harus diaktifkan"
+   },
+   "optSectionVideo": {
+      "description": "[options] Page section for video options",
+      "message": "Video"
+   },
+   "optSectionView": {
+      "description": "[options] Page section for view options",
+      "message": "Tampilan"
+   },
+   "optShowHighRes": {
+      "description": "[options] Show high resolution pictures when available option",
+      "message": "Tampilkan gambar resolusi tinggi bila tersedia"
+   },
+   "optShowHighResTooltip": {
+      "description": "[options] Tooltip for show high resolution pictures when available option",
+      "message": "Gambar dapat mengambil lebih banyak waktu untuk memuat"
+   },
+   "optShowLastUpdateNotification": {
+      "description": "[options] Show last update notification",
+      "message": "(lihat pemberitahuan terakhir)"
+   },
+   "optShowWhileLoading": {
+      "description": "[options] Show zoomed pictures while loading option",
+      "message": "Tampilkan gambar yang diperbesar saat loading"
+   },
+   "optShowWhileLoadingTooltip": {
+      "description": "[options] Tooltip for show zoomed pictures while loading option",
+      "message": "Gambar diperbesar akan ditampilkan sebelum terisi penuh"
+   },
+   "optSiteDisclaimer": {
+      "description": "[options] Disclaimer on the sites option page",
+      "message": "Perlu diketahui bahwa domain filter dapat tumpang tindih. Contoh: jika Anda telah disaring \"picasaweb.google.com\" dan \"google.com\", menghilangkan \"picasaweb.google.com\" tidak mengaktifkan kembali Album Web Picasa, seperti itu akan masih dikecualikan oleh filter \"google.com\"."
+   },
+   "optSitePlaceholder": {
+      "description": "[options] Placeholder for a site url input box",
+      "message": "Contoh: facebook.com, google.com/reader"
+   },
+   "optTitle": {
+      "description": "[options] Page title",
+      "message": "Hover Zoom+ Pilihan"
+   },
+   "optUpdateNotifications": {
+      "description": "[options] Show update notifications option",
+      "message": "Tampilkan pemberitahuan pembaruan"
+   },
+   "optVideoPositionStep": {
+      "description": "[options] Changing video position amount option",
+      "message": "Gunakan sebelumnya/berikutnya tombol aksi (atau roda mouse) untuk mengubah posisi video dengan"
+   },
+   "optVideoPositionStepTooltip": {
+      "description": "[options] Tooltip for changing video position option",
+      "message": "Skip video kembali atau balik untuk jumlah detik"
+   },
+   "optVideoPositionStepUnitName": {
+      "description": "[options] Unit name (seconds) for changing video position option",
+      "message": "detik"
+   },
+   "optVideoTimestamp": {
+      "description": "[options] Enable timestamp / video length on videos",
+      "message": "Menampilkan timestamp pada video"
+   },
+   "optVideoTimestampTooltip": {
+      "description": "[options] Tooltip for video length countdown on videos",
+      "message": "Mengaktifkan timestamp / panjang video pada video"
+   },
+   "optVideoVolume": {
+      "description": "[options] Audio volume for unmuted videos option",
+      "message": "Volume audio untuk video unmuted:"
+   },
+   "optVideoVolumeTooltip": {
+      "description": "[options] Tooltip for audio volume for unmuted videos option",
+      "message": "Jika video tidak benar-benar dimatikan, menyetel volume hingga persentase ini (0-100)"
+   },
+   "optVideoVolumeUnitName": {
+      "description": "[options] Unit name (percentage) for video volume option",
+      "message": "%"
+   },
+   "optWhitelistMode": {
+      "description": "[options] Whitelist mode checkbox",
+      "message": "Mode Whitelist"
+   },
+   "optWhitelistModeTooltip": {
+      "description": "[options] Tooltip for whitelist mode checkbox",
+      "message": "Hanya mengaktifkan Hover Zoom+ untuk situs yang terdaftar di bawah ini"
+   },
+   "optZoomFactor": {
+      "description": "[options] Adjust the size of zoomed images option",
+      "message": "Memperbesar gambar yang diperbesar dengan faktor ini:"
+   },
+   "optZoomFactorTooltip": {
+      "description": "[options] Tooltip for adjust the size of zoomed images option",
+      "message": "Kalikan ukuran gambar yang diperbesar dengan jumlah ini"
+   },
+   "optZoomFactorUnitName": {
+      "description": "[options] Unit name (percentage) for zoomed images size option",
+      "message": "kali"
+   },
+   "optZoomVideos": {
+      "description": "[options] Zoom videos (WebM, MP4) option",
+      "message": "Zoom video (WebM, MP4)"
+   },
+   "optZoomVideosTooltip": {
+      "description": "[options] Tooltip for zoom videos (WebM, MP4) option",
+      "message": "Zoom video (WebM, MP4)"
+   },
+   "popAllowPerSiteToggle": {
+      "description": "[popup] Allow per-site extension configuration",
+      "message": "Memungkinkan konfigurasi ekstensi per- situs"
+   },
+   "popDisableForAllSites": {
+      "description": "[popup] Disable the extension",
+      "message": "Menonaktifkan untuk semua situs"
+   },
+   "popDisableForSite": {
+      "description": "[popup] Disables the extension for a specific site",
+      "message": "Menonaktifkan untuk $1"
+   },
+   "popEnableForSite": {
+      "description": "[popup] Enables the extension for a specific site",
+      "message": "Aktifkan untuk $1"
+   },
+   "popMoreOptions": {
+      "description": "[popup] More options",
+      "message": "Opsi lainnya"
+   },
+   "popPreloadImages": {
+      "description": "[popup] Preload zoomed images",
+      "message": "Preload diperbesar gambar"
+   },
+   "popPreloadingImages": {
+      "description": "[popup] Preloading zoomed images",
+      "message": "Preloading..."
+   }
+}

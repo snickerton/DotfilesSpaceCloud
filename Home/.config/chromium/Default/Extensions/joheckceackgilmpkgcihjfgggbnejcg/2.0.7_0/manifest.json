@@ -1,0 +1,22 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_title": "Meetingbird"
+   },
+   "content_security_policy": "default-src 'self'; script-src 'self'; style-src * 'unsafe-inline'; img-src 'self' data:;",
+   "description": "Superpowers for Gmail, Google Calendar, and Google Inbox.",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "48": "img/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArbVqPd+i9pi5lNOW0gfqUhdzNuG/YT+P6jLHQky5IFkWVTK01cLyz/GVPBufb3L2wcLzSr5A5sFDWYTlMpV6+vPr7QcOCzZGiyqG7dOG1e9rtOHhQjw2XuuPaIKTNbFR9r9lFKOGnj5Asi6IZTAGi9VrgIxdARjTBlfVEDS/I/m/Na9SRKTToO4XqdG+eo/WyuvoAanoUSIBWTzpeuEzQPr4jVaylIc9fcgOK+8mLeaAaXBktQMIYhwS3//o+qufv7fThsoUEbIW0HHtuGyeV5Yj2RYIUflQf+rTaYAnzsP7foCopF/KkFQI9t+YtxUOCdVBRd/YTyMH7D4vD4u7OwIDAQAB",
+   "manifest_version": 2,
+   "name": "Meetingbird",
+   "permissions": [ "tabs", "storage", "https://mail.google.com/*", "https://inbox.google.com/*", "https://calendar.google.com/*", "https://www.meetingbird.com/*", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.7",
+   "web_accessible_resources": [ "inject.html", "https://s3.amazonaws.com/meetingbird-public/*", "https://s3.amazonaws.com/meetingbird-prod/staticassets/*", "https://meetingbird-prod.s3.amazonaws.com/*", "https://www.google.com/maps/embed/v1/*", "*.ttf" ]
+}

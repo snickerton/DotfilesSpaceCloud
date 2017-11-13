@@ -1,0 +1,80 @@
+.mb-meeting-buffer-section {
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mb-meeting-buffer-section .duration-input {
+  width: 40px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.mb-meeting-buffer-section .buffer-mtg-row {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.mb-meeting-buffer-section .timepicker-pair-container .timeStart {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  margin-left: 0px !important;
+  width: 60px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.mb-meeting-buffer-section .timepicker-pair-container .timeEnd {
+  margin-right: 0px !important;
+  position: absolute;
+  top: 25px;
+  left: 140px;
+  width: 60px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.mb-meeting-buffer-section .create-buffer-btn {
+  display: inline-block;
+  width: 100%;
+  background-color: #68B3FF;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  height: 25px;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: background-color .25s;
+}
+
+.mb-meeting-buffer-section .create-buffer-btn:hover {
+  background-color: #4699ec;
+}
+
+.mb-meeting-buffer-section .select2-selection--single {
+  height: 24px;
+}
+
+.mb-meeting-buffer-section .select2-selection--single .select2-selection__rendered {
+  line-height: 23px;
+  font-size: 12px;
+}
+
+.mb-meeting-buffer-section .select2-selection--single .select2-selection__arrow {
+  height: 22px;
+}
+
+.select2-results__options::-webkit-scrollbar {
+  height: 0px !important;
+  width: 0px !important;
+}

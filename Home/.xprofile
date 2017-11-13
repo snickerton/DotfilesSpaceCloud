@@ -1,0 +1,3 @@
+#This does the background of the workspace
+#xsetroot -solid "#0069CC"
+xsetroot -bg "#0069CC"

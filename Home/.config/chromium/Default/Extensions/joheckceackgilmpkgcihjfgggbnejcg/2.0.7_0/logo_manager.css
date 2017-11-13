@@ -1,0 +1,54 @@
+.logo-manager .dropzone {
+  width: 100%;
+  height: 40px;
+  border-width: 2px;
+  border-color: #a8a9ae;
+  border-style: dashed;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #a8a9ae;
+  box-sizing: border-box;
+}
+
+.logo-manager .dropzone:hover {
+  border-color: #68B3FF;
+  color: #68B3FF;
+}
+
+.logo-manager .dropzone div {
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.logo-manager .logo-container {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  margin-top: 10px;
+}
+
+.logo-manager .logo-container .fa-trash-o {
+  position: absolute;
+  right: 10px;
+  font-size: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+
+.logo-manager .logo-container .fa-trash-o:hover {
+  color: #FF8989;
+}
+
+.logo-manager .logo-container .remove-confirmation-text {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  padding-top: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+}

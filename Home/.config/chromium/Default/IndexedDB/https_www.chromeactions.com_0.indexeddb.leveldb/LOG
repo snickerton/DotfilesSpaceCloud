@@ -1,0 +1,18 @@
+2017/08/15-18:43:36.942 6927 Reusing MANIFEST /home/snickerton/.config/chromium/Default/IndexedDB/https_www.chromeactions.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/08/15-18:43:36.942 6927 Recovering log #22
+2017/08/15-18:43:36.942 6927 Reusing old log /home/snickerton/.config/chromium/Default/IndexedDB/https_www.chromeactions.com_0.indexeddb.leveldb/000022.log 
+2017/08/15-18:43:37.623 6927 Current memtable full; waiting...
+2017/08/15-18:43:37.623 10658 Level-0 table #27: started
+2017/08/15-18:43:37.668 10658 Level-0 table #27: 359 bytes OK
+2017/08/15-18:43:37.702 10658 Delete type=0 #22
+2017/08/15-18:43:37.703 10658 Level-0 table #29: started
+2017/08/15-18:43:37.703 10658 Level-0 table #29: 0 bytes OK
+2017/08/15-18:43:37.725 10658 Delete type=0 #26
+2017/08/15-18:43:37.725 10658 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 46 : 1
+2017/08/15-18:43:37.725 10658 Compacting 1@0 + 1@1 files
+2017/08/15-18:43:37.769 10658 Generated table #30@0: 3 keys, 390 bytes
+2017/08/15-18:43:37.770 10658 Compacted 1@0 + 1@1 files => 390 bytes
+2017/08/15-18:43:37.792 10658 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/08/15-18:43:37.793 10658 Delete type=2 #27
+2017/08/15-18:43:37.793 10658 Delete type=2 #24
+2017/08/15-18:43:37.814 10658 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 46 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

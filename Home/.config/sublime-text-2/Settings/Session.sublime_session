@@ -1,0 +1,204 @@
+{
+	"folder_history":
+	[
+	],
+	"last_window_id": 1,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/run/media/snickerton/7069-A015/Linux Ashes/Home/bin/roficonfig.sh",
+					"settings":
+					{
+						"buffer_size": 48,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/run/media/snickerton/7069-A015/Linux Ashes/Home/bin/loadWsMain.sh",
+				"/run/media/snickerton/7069-A015/Linux Ashes/Home/bin/roficonfig.sh",
+				"/run/media/snickerton/7069-A015/Linux Ashes/Home/bin/uploadXresource.sh",
+				"/home/snickerton/.i3/workspace-main.json",
+				"/etc/udev/rules.d/60-schedulers.rules",
+				"/home/snickerton/i3configbackup.txt",
+				"/home/snickerton/.cache/.fr-YahKRb/pycharm-community-2017.2.2/Install-Linux-tar.txt",
+				"/home/snickerton/bin/i3config.sh",
+				"/home/snickerton/dotfiles/dotfiles/common/.bashrc",
+				"/home/snickerton/dotfiles/.gitignore",
+				"/home/snickerton/dotfiles/README.md",
+				"/etc/udev/rules.d/70-wifi-powersave.rules",
+				"/bin/i3config.sh",
+				"/home/snickerton/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/snickerton/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/usr/share/doc/conky-1.10.6_pre/conky.conf"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/run/media/snickerton/7069-A015/Linux Ashes/Home/bin/roficonfig.sh",
+							"settings":
+							{
+								"buffer_size": 48,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,0,0,0,640,27,1280,772,1280,800",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

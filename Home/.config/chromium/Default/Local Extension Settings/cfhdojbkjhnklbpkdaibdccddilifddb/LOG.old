@@ -1,0 +1,19 @@
+2017/11/01-23:59:09.595 2299 Reusing MANIFEST /home/snickerton/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2017/11/01-23:59:09.596 2299 Recovering log #1408
+2017/11/01-23:59:09.996 2299 Level-0 table #1411: started
+2017/11/01-23:59:10.198 2299 Level-0 table #1411: 2873525 bytes OK
+2017/11/01-23:59:10.434 2299 Delete type=0 #1408
+2017/11/02-00:00:09.232 2755 Level-0 table #1414: started
+2017/11/02-00:00:09.931 2755 Level-0 table #1414: 2873239 bytes OK
+2017/11/02-00:00:10.322 2755 Delete type=0 #1412
+2017/11/02-00:00:10.323 2755 Compacting 4@0 + 2@1 files
+2017/11/02-00:00:10.590 2755 Generated table #1415@0: 1 keys, 2873178 bytes
+2017/11/02-00:00:10.757 2755 Generated table #1416@0: 3 keys, 430 bytes
+2017/11/02-00:00:10.758 2755 Compacted 4@0 + 2@1 files => 2873608 bytes
+2017/11/02-00:00:11.016 2755 compacted to: files[ 0 4 7 0 0 0 0 ]
+2017/11/02-00:00:11.016 2755 Delete type=2 #1404
+2017/11/02-00:00:11.016 2755 Delete type=2 #1403
+2017/11/02-00:00:11.017 2755 Delete type=2 #1411
+2017/11/02-00:00:11.018 2755 Delete type=2 #1414
+2017/11/02-00:00:11.019 2755 Delete type=2 #1409
+2017/11/02-00:00:11.019 2755 Delete type=2 #1406

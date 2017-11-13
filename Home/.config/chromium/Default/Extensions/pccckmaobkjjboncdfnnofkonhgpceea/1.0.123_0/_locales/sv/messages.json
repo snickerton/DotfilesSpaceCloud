@@ -1,0 +1,374 @@
+{
+   "extDescription": {
+      "description": "Extension description in Chrome webstore (max. 132 characters)",
+      "message": "Zooma bilder/video på alla dina favoritwebbplatser (Facebook, YouTube, etc) Håll muspekaren över bilden för att enkelt förstora den."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Hover Zoom +"
+   },
+   "extShortName": {
+      "description": "Short extension name",
+      "message": "HoverZoom"
+   },
+   "extUpdated": {
+      "description": "Extension update notification",
+      "message": "Hover Zoom + har uppdaterats"
+   },
+   "optActionKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Om en knapp är angiven kan Hover Zoom+ endast fungera medan denna är nedtryckt."
+   },
+   "optActionKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Aktivera Hover Zoom+"
+   },
+   "optAddToHistory": {
+      "description": "[options] Add viewed pictures to the browser's history option",
+      "message": "Lägg till visade bilder i webbläsarens historik"
+   },
+   "optAlwaysPreload": {
+      "description": "[options] Automatically preload zoomed images option",
+      "message": "Ladda automatiskt zoomade bilder i förväg"
+   },
+   "optButtonAddSite": {
+      "description": "[options] Button for adding a site on sites option page",
+      "message": "Lägg till"
+   },
+   "optButtonReset": {
+      "description": "[options] Reset button label",
+      "message": "återställ"
+   },
+   "optButtonSave": {
+      "description": "[options] Save button label",
+      "message": "Spara"
+   },
+   "optDisableMouseWheelForVideo": {
+      "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos",
+      "message": "Använd inte mushjulet för att navigera i videon (prev/next kommer fortfarande att fungera)"
+   },
+   "optDisableMouseWheelForVideoTooltip": {
+      "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos",
+      "message": "Skrolla igenom album men hoppa inte framåt/bakåt i videor"
+   },
+   "optDisplayDelay": {
+      "description": "[options] Delay before displaying a picture option",
+      "message": "Fördröjning innan du visar en bild:"
+   },
+   "optDisplayDelayVideo": {
+      "description": "[options] Delay before displaying a video option",
+      "message": "Fördröjning innan du visar en video:"
+   },
+   "optDurationUnitName": {
+      "description": "[options] Short form of \"second\" for delay duration",
+      "message": "sek"
+   },
+   "optEnableAmbilight": {
+      "description": "[options] Enable ambient light behind images option",
+      "message": "Aktivera omgivande ljus bakom bilderna"
+   },
+   "optEnableAmbilightTooltip": {
+      "description": "[options] Tooltip for enable ambient light behind images option",
+      "message": "Skapa en subtil ljuseffekt som liknar Philips Ambilight-teknik."
+   },
+   "optEnableGalleries": {
+      "description": "[options] Enable albums support option",
+      "message": "Aktivera stöd för album"
+   },
+   "optExtensionEnabled": {
+      "description": "[options] Enable Hover Zoom+ option",
+      "message": "Aktivera Hover Zoom"
+   },
+   "optFadeDuration": {
+      "description": "[options] Fading animation duration option",
+      "message": "Avtagande animationstid:"
+   },
+   "optFilterNSFW": {
+      "description": "[options] Exclude NSFW images (Reddit only) option",
+      "message": "Uteslut NSFW bilder (Reddit)"
+   },
+   "optFooterReportIssue": {
+      "description": "[options] Report a bug link in page footer",
+      "message": "Rapportera bugg"
+   },
+   "optFooterSourceCode": {
+      "description": "[options] Source code link in page footer",
+      "message": "Källkod"
+   },
+   "optFooterVersionCopyright": {
+      "description": "[options] Copyright and version number in page footer",
+      "message": "Version $1 - © 2014-2016 Oleg Anashkin"
+   },
+   "optFullZoomKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "När denna knapp är nedtryckt, visas bilden med allt tillgängliga utrymme. Användbart enbart för bilder med hög upplösning."
+   },
+   "optFullZoomKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Aktivera full zoom"
+   },
+   "optGalleriesMouseWheel": {
+      "description": "[options] Use mousewheel to navigate albums option",
+      "message": "Använda mushjulet för att navigera album"
+   },
+   "optGalleriesMouseWheelTooltip": {
+      "description": "[options] Tooltip for use mousewheel to navigate albums option",
+      "message": "Navigera album med mushjulet"
+   },
+   "optHideKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Håll ned denna knapp för att dölja den zoomade bilden. Använd detta när bilden döljer element som visas vid på mouseover."
+   },
+   "optHideKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Inaktivera Hover Zoom+"
+   },
+   "optMouseUnderlap": {
+      "description": "[options] Extend zoomed images below the mouse cursor option",
+      "message": "Utöka zoomade bilder under muspekaren"
+   },
+   "optMouseUnderlapTooltip": {
+      "description": "[options] Tooltip for extend zoomed images below the mouse cursor option",
+      "message": "Om den är omarkerad kommer zoomade bilder att ändras dynamiskt"
+   },
+   "optMuteVideos": {
+      "description": "[options] Mute zoomed videos option",
+      "message": "Tysta ned zoomade videor"
+   },
+   "optMuteVideosTooltip": {
+      "description": "[options] Tooltip for mute zoomed videos option",
+      "message": "Stänga av ljudet i zoomade videor"
+   },
+   "optNextImgKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tryck på denna knapp för att visa nästa bild i ett galleri."
+   },
+   "optNextImgKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Visa nästa bild i ett galleri"
+   },
+   "optOpacityUnitName": {
+      "description": "[options] Unit name (percentage) for opacity option",
+      "message": "%"
+   },
+   "optOpenImageInTabKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tryck på den här knappen för att öppna bilden du visar i en ny flik. Tryck på denna knapp igen för att stänga fönstret."
+   },
+   "optOpenImageInTabKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Öppna bild i en ny flik"
+   },
+   "optOpenImageInWindowKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tryck på den här knappen för att öppna bilden du visar i ett nytt fönster. Tryck på denna knapp igen för att stänga fönstret."
+   },
+   "optOpenImageInWindowKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Öppna bild i nytt fönster"
+   },
+   "optPageActionEnabled": {
+      "description": "[options] Show icon in address bar option",
+      "message": "Visa ikon i adressfältet"
+   },
+   "optPageActionEnabledTooltip": {
+      "description": "[options] Tooltip for show icon in address bar option",
+      "message": "Endast när bilder som kan zoomas"
+   },
+   "optPageActionKeys": {
+      "description": "[options] Page title for action key options",
+      "message": "Kortkommandon"
+   },
+   "optPageAdvanced": {
+      "description": "[options] Page title for advanced options",
+      "message": "Avancerat"
+   },
+   "optPageGeneral": {
+      "description": "[options] Page title for general options",
+      "message": "Generellt"
+   },
+   "optPagePlugins": {
+      "description": "[options] Page title for plugin options",
+      "message": "Plugins"
+   },
+   "optPageSites": {
+      "description": "[options] Page title for site options",
+      "message": "Hemsidor"
+   },
+   "optPicturesOpacity": {
+      "description": "[options] Zoomed pictures opacity option",
+      "message": "Zoomade bilders opacitet:"
+   },
+   "optPlugins": {
+      "description": "[options] Section which contains checkboxes for disabling plugins",
+      "message": "Aktivera/inaktivera specifika plugins"
+   },
+   "optPrevImgKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tryck på denna knapp för att visa föregående bild i ett galleri."
+   },
+   "optPrevImgKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Visa föregående bild i ett galleri"
+   },
+   "optSaveImageKeyDescription": {
+      "description": "[options] Action key description",
+      "message": "Tryck på den här knappen för att spara den bild som du visar."
+   },
+   "optSaveImageKeyTitle": {
+      "description": "[options] Action key title",
+      "message": "Spara bild"
+   },
+   "optSaved": {
+      "description": "[options] Notification after saving options",
+      "message": "Alternativ sparade. Vissa inställningar kan behöva en siduppdatering."
+   },
+   "optSectionAdvanced": {
+      "description": "[options] Page section for advanced options",
+      "message": "Avancerade inställningar"
+   },
+   "optSectionDelays": {
+      "description": "[options] Page section for delay options",
+      "message": "Fördröjningar"
+   },
+   "optSectionSitesDisabled": {
+      "description": "[options] Page section for enabling extension for specific sites",
+      "message": "Webbadresser där Hover Zoom+ måste vara inaktiverad"
+   },
+   "optSectionSitesEnabled": {
+      "description": "[options] Page section for enabling extension for specific sites",
+      "message": "Webbadresser där Hover Zoom+ måste vara aktiverad"
+   },
+   "optSectionVideo": {
+      "description": "[options] Page section for video options",
+      "message": "Video"
+   },
+   "optSectionView": {
+      "description": "[options] Page section for view options",
+      "message": "Visa"
+   },
+   "optShowHighRes": {
+      "description": "[options] Show high resolution pictures when available option",
+      "message": "Visa högupplösta bilder när det är tillgängligt"
+   },
+   "optShowHighResTooltip": {
+      "description": "[options] Tooltip for show high resolution pictures when available option",
+      "message": "Bilder kan ta längre tid att ladda"
+   },
+   "optShowLastUpdateNotification": {
+      "description": "[options] Show last update notification",
+      "message": "(Visa senaste meddelande)"
+   },
+   "optShowWhileLoading": {
+      "description": "[options] Show zoomed pictures while loading option",
+      "message": "Visa zoomade bilder medan de laddar"
+   },
+   "optShowWhileLoadingTooltip": {
+      "description": "[options] Tooltip for show zoomed pictures while loading option",
+      "message": "Zoomad bild kommer att visas innan den är fulladdad"
+   },
+   "optSiteDisclaimer": {
+      "description": "[options] Disclaimer on the sites option page",
+      "message": "Var medveten om att domänfilter kan överlappa varandra. Exempel: om du har filtrerat \"picasaweb.google.com\" och \"google.com\", kan du inte enbart ta bort \"picasaweb.google.com\" för att återaktivera Picasa Webbalbum eftersom det fortfarande kommer att uteslutas av \"google.com\" filtret."
+   },
+   "optSitePlaceholder": {
+      "description": "[options] Placeholder for a site url input box",
+      "message": "Exempel: facebook.com, google.com/reader"
+   },
+   "optTitle": {
+      "description": "[options] Page title",
+      "message": "Hover Zoom + alternativ"
+   },
+   "optUpdateNotifications": {
+      "description": "[options] Show update notifications option",
+      "message": "Visa uppdateringsmeddelanden"
+   },
+   "optVideoPositionStep": {
+      "description": "[options] Changing video position amount option",
+      "message": "Använd prev/next knapparna (eller mushjulet) för att ändra videons position med"
+   },
+   "optVideoPositionStepTooltip": {
+      "description": "[options] Tooltip for changing video position option",
+      "message": "Hoppa fram eller bak i videon med så här många sekunder"
+   },
+   "optVideoPositionStepUnitName": {
+      "description": "[options] Unit name (seconds) for changing video position option",
+      "message": "sek"
+   },
+   "optVideoTimestamp": {
+      "description": "[options] Enable timestamp / video length on videos",
+      "message": "Visa tidsstämpel på videor"
+   },
+   "optVideoTimestampTooltip": {
+      "description": "[options] Tooltip for video length countdown on videos",
+      "message": "Aktivera tidsstämpel / videolängd på videor"
+   },
+   "optVideoVolume": {
+      "description": "[options] Audio volume for unmuted videos option",
+      "message": "Ljudvolym för videoklipp:"
+   },
+   "optVideoVolumeTooltip": {
+      "description": "[options] Tooltip for audio volume for unmuted videos option",
+      "message": "Om videon är inte helt tyst, ställ in volym mellan 0-100%"
+   },
+   "optVideoVolumeUnitName": {
+      "description": "[options] Unit name (percentage) for video volume option",
+      "message": "%"
+   },
+   "optWhitelistMode": {
+      "description": "[options] Whitelist mode checkbox",
+      "message": "Tillåtna sidor"
+   },
+   "optWhitelistModeTooltip": {
+      "description": "[options] Tooltip for whitelist mode checkbox",
+      "message": "Aktivera bara Hover Zoom+ för de sidor som anges nedan"
+   },
+   "optZoomFactor": {
+      "description": "[options] Adjust the size of zoomed images option",
+      "message": "Förstora zoomade bilder med denna faktor:"
+   },
+   "optZoomFactorTooltip": {
+      "description": "[options] Tooltip for adjust the size of zoomed images option",
+      "message": "Multiplicera storleken på zoomade bilder med så här mycket"
+   },
+   "optZoomFactorUnitName": {
+      "description": "[options] Unit name (percentage) for zoomed images size option",
+      "message": "gånger"
+   },
+   "optZoomVideos": {
+      "description": "[options] Zoom videos (WebM, MP4) option",
+      "message": "Zooma videos (WebM, MP4)"
+   },
+   "optZoomVideosTooltip": {
+      "description": "[options] Tooltip for zoom videos (WebM, MP4) option",
+      "message": "Zooma videos (WebM, MP4)"
+   },
+   "popAllowPerSiteToggle": {
+      "description": "[popup] Allow per-site extension configuration",
+      "message": "Tillåt per-sida-konfiguration för tillägget"
+   },
+   "popDisableForAllSites": {
+      "description": "[popup] Disable the extension",
+      "message": "Inaktivera för alla webbplatser"
+   },
+   "popDisableForSite": {
+      "description": "[popup] Disables the extension for a specific site",
+      "message": "Inaktivera för $1"
+   },
+   "popEnableForSite": {
+      "description": "[popup] Enables the extension for a specific site",
+      "message": "Aktivera för $1"
+   },
+   "popMoreOptions": {
+      "description": "[popup] More options",
+      "message": "Fler alternativ"
+   },
+   "popPreloadImages": {
+      "description": "[popup] Preload zoomed images",
+      "message": "Ladda zoomade bilder i förväg"
+   },
+   "popPreloadingImages": {
+      "description": "[popup] Preloading zoomed images",
+      "message": "Förladdning..."
+   }
+}

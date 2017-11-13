@@ -1,0 +1,294 @@
+.mb-event-time-editor {
+  height: 60px;
+  float: left;
+  border-bottom: 1px solid #ddd;
+  display: inline-block;
+  width: 100%;
+}
+
+.mb-event-time-editor .single-date-container {
+  display: inline-block;
+  height: 50%;
+  width: 45%;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.trello-due-time-editor {
+  padding-top: 3px;
+  height: 45px;
+  float: left;
+  border-bottom: 1px solid #BDC3C7;
+  display: inline-block;
+  width: 100%;
+}
+
+.trello-due-time-editor .trello-check-box {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #BDC3C7;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-left: 8px;
+  float: left;
+}
+
+.trello-due-time-editor .trello-check-box:hover {
+  background-color: #ecf8ff;
+  cursor: pointer;
+}
+
+.trello-due-time-editor .trello-check-box:hover .trello-incomplete-check {
+  display: block;
+}
+
+.trello-due-time-editor .trello-check-box:active {
+  background-color: #cdefff;
+}
+
+.trello-due-time-editor .trello-incomplete-check {
+  display: none;
+  font-size: 15px;
+  margin-top: 2px;
+  margin-left: 2px;
+  color: #a1a5a7;
+}
+
+.trello-due-time-editor .trello-complete-check {
+  display: block;
+  margin-top: 2px;
+  margin-left: 2px;
+  color: #34495e;
+}
+
+.trello-due-time-editor .time-string {
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+  line-height: 24px;
+  float: left;
+  padding-left: 8px;
+  padding-top: 3px;
+}
+
+.trello-due-time-editor .date-picker {
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 105px;
+  padding-top: 5px;
+  padding-left: 8px;
+}
+
+.trello-due-time-editor .date-picker:hover {
+  color: #68b3ff;
+}
+
+.trello-due-time-editor .time-picker {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.mb-event-time-editor .fa-long-arrow-right {
+  height: 50%;
+  width: 10%;
+  line-height: 60px;
+  text-align: center;
+  color: #BDC3C7;
+  float: left;
+}
+
+.mb-event-time-editor .month-date-text {
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+  line-height: 24px;
+}
+
+.mb-event-time-editor .all-day-text {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 48px;
+}
+
+.event-time-editor-date-picker {
+  border: none;
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+}
+
+.event-time-editor-date-picker:hover {
+  color: #68b3ff;
+}
+
+.event-time-editor-date-picker-focused {
+  color: #68b3ff;
+}
+
+.mb-event-time-editor .date-selection-container {
+  display: inline-block;
+}
+
+.mb-event-time-editor .day-select-section {
+  float: left;
+}
+
+.mb-event-time-editor .day-picker-wrapper {
+  position: absolute;
+  width: 250px;
+  background-color: white;
+  border-width: 1px;
+  box-shadow: 0px 0px 20px #BDC3C7;
+  color: #34495E;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+.mb-event-time-editor .DayPicker {
+  background-color: white;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.mb-event-time-editor .DayPicker-Day:hover {
+  background-color: #FF8989;
+}
+
+.mb-event-time-editor .date-content {
+  font-size: 13px;
+  color: #34495E;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.mb-event-time-editor .time-select-container {
+  color: #34495E;
+  float: right;
+  margin-left: 30px;
+}
+
+.mb-event-time-editor .time-select {
+  text-align: center;
+  font-size: 13px;
+  height: 35px;
+  float:left;
+  width: 110px;
+}
+
+.time-picker-selector + .select2 {
+  margin-left: 40px !important;
+}
+
+.time-picker-selector + .select2-container--open .select2-selection__rendered {
+  color: #68b3ff !important;
+}
+
+.time-picker-selector + .select2-container {
+  font-size: 15px;
+}
+
+.time-picker-selector + .select2-container .select2-selection--single {
+  border: 0px solid !important;
+}
+
+.time-picker-selector + .select2-container .select2-selection__arrow {
+  display: none;
+}
+
+.select2-container--default li {
+  font-size: 13px;
+}
+
+.time-picker-selector + .select2-container .select2-selection__rendered {
+  padding-right: 0px !important;
+  color: #4a5357 !important;
+}
+
+.time-picker-selector + .select2-container .select2-selection__rendered:hover {
+  color: #68b3ff !important;
+}
+
+.time-picker-selector + .select2-container .select2-selection__rendered:focus {
+  color: #68b3ff !important;
+}
+
+.time-picker-selector + .span {
+  font-size: 13px;
+}
+
+.trello-due-time-editor .time-picker + .select2-container--open .select2-selection__rendered {
+  color: #68b3ff !important;
+}
+
+.trello-due-time-editor .time-picker + .select2-container {
+  font-size: 16px;
+  padding-bottom: 3px;
+}
+
+.trello-due-time-editor .time-picker + .select2-container .select2-selection--single {
+  border: 0px solid !important;
+}
+
+.trello-due-time-editor .time-picker + .select2-container .select2-selection__arrow {
+  display: none;
+}
+
+.trello-due-time-editor .time-picker + .select2-container .select2-selection__rendered {
+  padding-right: 0px !important;
+  color: #4a5357 !important;
+}
+
+.trello-due-time-editor .time-picker + .select2-container .select2-selection__rendered:hover {
+  color: #68b3ff !important;
+}
+
+.trello-due-time-editor .time-picker + .select2-container .select2-selection__rendered:focus {
+  color: #68b3ff !important;
+}
+
+.trello-due-time-editor .time-picker + .span {
+  font-size: 13px;
+}
+
+.mb-event-time-editor .time-select-container .Select-menu{
+  max-height: 90px;
+  font-size: 12px;
+}
+
+.mb-event-time-editor .time-select-container .Select-placeholder {
+  color: #34495E !important;
+}
+
+.mb-event-time-editor .time-select-container .Select-arrow {
+  display: none;
+}
+
+.mb-event-time-editor .time-arrow {
+  margin-top: 10px;
+  float:left;
+  color: #34495E;
+}
+
+.mb-event-time-editor .timepicker-input {
+  width: 72px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.mb-event-time-editor .timepicker-input:hover {
+  color: #68b3ff;
+}
+
+.mb-event-time-editor .timepicker-pair-container {
+  width: 100%;
+}

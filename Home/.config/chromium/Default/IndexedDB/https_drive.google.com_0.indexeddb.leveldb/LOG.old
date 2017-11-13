@@ -1,0 +1,26 @@
+2017/10/30-17:49:27.519 13643 Reusing MANIFEST /home/snickerton/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/30-17:49:27.519 13643 Recovering log #175
+2017/10/30-17:49:27.525 13643 Reusing old log /home/snickerton/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000175.log 
+2017/10/30-17:49:34.844 362 Level-0 table #181: started
+2017/10/30-17:49:35.094 362 Level-0 table #181: 5211040 bytes OK
+2017/10/30-17:49:35.186 362 Delete type=0 #175
+2017/10/30-17:50:13.912 362 Level-0 table #183: started
+2017/10/30-17:50:14.106 362 Level-0 table #183: 4658852 bytes OK
+2017/10/30-17:50:14.173 362 Delete type=0 #180
+2017/10/30-18:00:54.094 362 Level-0 table #185: started
+2017/10/30-18:00:54.276 362 Level-0 table #185: 4664083 bytes OK
+2017/10/30-18:00:54.355 362 Delete type=0 #182
+2017/10/30-22:55:05.673 362 Level-0 table #187: started
+2017/10/30-22:55:05.934 362 Level-0 table #187: 4661181 bytes OK
+2017/10/30-22:55:05.980 362 Delete type=0 #184
+2017/10/30-22:55:05.982 362 Compacting 4@0 + 2@1 files
+2017/10/30-22:55:06.413 362 Generated table #188@0: 13 keys, 2805013 bytes
+2017/10/30-22:55:06.526 362 Generated table #189@0: 18 keys, 51052 bytes
+2017/10/30-22:55:06.526 362 Compacted 4@0 + 2@1 files => 2856065 bytes
+2017/10/30-22:55:06.571 362 compacted to: files[ 0 2 1 0 0 0 0 ]
+2017/10/30-22:55:06.571 362 Delete type=2 #185
+2017/10/30-22:55:06.574 362 Delete type=2 #187
+2017/10/30-22:55:06.576 362 Delete type=2 #183
+2017/10/30-22:55:06.589 362 Delete type=2 #178
+2017/10/30-22:55:06.589 362 Delete type=2 #181
+2017/10/30-22:55:06.590 362 Delete type=2 #177

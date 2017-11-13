@@ -1,0 +1,426 @@
+.new-meeting-popover-container {
+  width: 100%;
+  background-color: white;
+  color: #4a5357;
+  font-size: 14px;
+  display: inline-block;
+  float: right;
+}
+
+.new-meeting-popover-container input {
+  outline: none;
+}
+
+.new-meeting-popover-container .topic-container {
+  height: 45px;
+  line-height: 45px;
+  float: left;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.new-meeting-popover-container .topic-container .fa-circle {
+  line-height: 47px;
+  display: inline-block;
+  width: 35px;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+}
+
+.new-meeting-popover-container .topic-input {
+  font-size: 14px;
+  width: calc(100% - 35px);
+  line-height: 45px;
+  height: 45px;
+  border: none;
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 10px;
+  color: #4a5357;
+}
+
+.new-meeting-popover-container .participants-container {
+  font-size: 15px;
+  line-height: 20px;
+  min-height: 50px;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.new-meeting-popover-container .participantToken {
+  margin-top: 5px;
+  float: left;
+}
+
+.new-meeting-popover-container .participants-container .Select-placeholder {
+  text-align: left;
+  font-size: 13px;
+}
+
+.new-meeting-popover-container .select-input-container .Select {
+  margin-bottom: 10px;
+}
+
+.nmp-participants-picker + .select2 {
+  width: 100%;
+}
+
+.nmp-participants-picker + .select2-container .select2-selection--multiple {
+  border: 0px solid !important;
+}
+
+.new-meeting-popover-container .location-container {
+  font-size: 15px;
+  min-height: 50px;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 3px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  position: relative;
+}
+
+.new-meeting-popover-container .location-container .fa-times {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  cursor: pointer;
+}
+
+.new-meeting-popover-container .pick-calendar-container {
+  font-size: 14px;
+  min-height: 50px;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 3px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.new-meeting-popover-container .location-input {
+  font-size: 14px;
+  width: 100%;
+  margin-top: 1px;
+  border: none;
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+  color: #4a5357;
+  margin-top: 6px;
+  padding-left: 8px;
+}
+
+.new-meeting-popover-container .location-input::placeholder {
+  color: #bdc3c7;
+}
+
+.new-meeting-popover-container .location-select {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  height: 35px;
+  width: 100%;
+}
+
+.new-meeting-popover-container .popover-label {
+  font-size: 11px;
+  color: #BDC3C7;
+}
+
+.new-meeting-popover-container .location-container .popover-label {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.new-meeting-popover-container .confirmation-buttons {
+  width: 100%;
+  float: left;
+  height: 45px;
+  background-color: #f8f8f8;
+}
+
+.new-meeting-popover-container .schedule-button {
+  height: 30px;
+  box-sizing: border-box;
+  line-height: 30px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 3px;
+  color: white;
+  background-color: #68b3ff;
+  font-size: 13px;
+  margin-top: 7px;
+  transition: background-color .25s;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  flex: 1;
+  float: left;
+}
+
+.new-meeting-popover-container .confirmation-buttons .schedule-button-disabled {
+  background-color: #9E9E9E;
+  cursor: inherit;
+}
+
+.new-meeting-popover-container .schedule-button:hover {
+  background-color: #4695e4;
+}
+
+.new-meeting-popover-container .confirmation-buttons .schedule-button-disabled:hover {
+  background-color: #9E9E9E;
+}
+
+.new-meeting-popover-container .open-scheduler-btn {
+  width: 78px;
+  text-align: center;
+  height: 30px;
+  box-sizing: border-box;
+  line-height: 30px;
+  border-radius: 3px;
+  color: white;
+  background-color: #50E3C2;
+  font-size: 13px;
+  margin-top: 7px;
+  margin-left: 8px;
+  margin-right: 9px;
+  transition: background-color .25s;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+}
+
+.new-meeting-popover-container .open-scheduler-btn:hover {
+  background-color: #43c3a7;
+}
+
+.new-meeting-popover-container .cancel-btn {
+  text-align: center;
+  height: 30px;
+  box-sizing: border-box;
+  line-height: 30px;
+  border-radius: 3px;
+  color: white;
+  background-color: #A8A8AC;
+  font-size: 13px;
+  margin-top: 7px;
+  margin-left: 8px;
+  margin-right: 8px;
+  transition: background-color .25s;
+  cursor: pointer;
+  display: inline-block;
+  flex: 1;
+  float: left;
+}
+
+.new-meeting-popover-container .cancel-btn:hover {
+  background-color: #818184;
+}
+
+.new-meeting-popover-container .event-time-editor-date-picker {
+  font-size: 14px;
+}
+
+.new-meeting-popover-container .react-autosuggest__input {
+  width: 222px;
+  height: 30px;
+}
+
+.new-meeting-popover-container .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+  width: 222px;
+  font-size: 12px;
+  border-color: #ddd;
+}
+
+.new-meeting-popover-container .nmp-calendar-picker + .select2 {
+  width: 100%;
+}
+
+.new-meeting-popover-container .nmp-calendar-picker + .select2-container .select2-selection--multiple {
+  border: 0px solid !important;
+}
+
+.new-meeting-popover-container .pick-room-container {
+  width: 300px;
+  display: inline-block;
+  border: 1px solid #dde0e2;
+  border-radius: 3px;
+  margin-bottom: 10px;
+} 
+
+.new-meeting-popover-container .choose-room-header {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: #9B9B9B;
+  background-color: F3F6FB;
+}
+
+.new-meeting-popover-container .back-button {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  font-size: 14px;
+  color: #9b9b9b;
+  cursor: pointer;
+  transition: color .25s;
+}
+
+.new-meeting-popover-container .back-button:hover {
+  color: #4a5357;
+}
+
+.new-meeting-popover-container .toggle-meeting-rooms-section {
+  max-height: 216px;
+  width: 100%;
+}
+
+.new-meeting-popover-container .toggle-meeting-rooms-section tr {
+  width: 100%;
+  padding-left: 32px;
+}
+
+.new-meeting-popover-container .no-rooms-message {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 70px;
+  color: #9B9B9B;
+}
+
+.new-meeting-popover-container .create-room-link {
+  cursor: pointer;
+  text-decoration: underline
+}
+
+.new-meeting-popover-container .create-room-link:hover {
+  color: #68B3FF;
+}
+
+.new-meeting-popover-container .choose-room-container {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  -webkit-animation-name: shift-left;
+  -webkit-animation-duration: 0.2s;
+  animation-name: shift-left;
+  animation-duration: 0.2s;
+}
+
+@-webkit-keyframes shift-left {
+    from {opacity: 0;} 
+    to {opacity: 1.0;}
+}
+
+@keyframes shift-left {
+    from {opacity: 0;}
+    to {opacity: 1.0;}
+}
+
+.new-meeting-popover-container .choose-room-container .meeting-room-finder {
+  width: 100%;
+}
+
+.new-meeting-popover-container .choose-room-container .meeting-room-finder .auth-btn {
+  width: calc(100% - 50px);
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.new-meeting-popover-container .recurring-section-container {
+  font-size: 15px;
+  min-height: 47px;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 3px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.new-meeting-popover-container .repeat-summary {
+  padding-top: 3px;
+}
+
+.new-meeting-popover-container .repeat-summary-text {
+  display: inline-block;
+}
+
+.new-meeting-popover-container .reminder-summary-text {
+  display: inline-block;
+  overflow: hidden;
+  width: 351px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.new-meeting-popover-container .recurring-section-container .fa-caret-right {
+  float: right;
+  display: inline-block;
+}
+
+.new-meeting-popover-container .more-options-text {
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 13px;
+  cursor: pointer;
+  width: 95px;
+  height: 45px;
+  line-height: 45px;
+}
+
+.new-meeting-popover-container .description-textarea {
+  resize: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+  color: #4A4A4A;
+  font-size: 12px;
+  outline: none;
+  box-sizing: border-box;
+  width: calc(100% - 16px);
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.new-meeting-popover-container .description-textarea:focus {
+  border-color: #68B4FF;
+}
+
+.new-meeting-popover-container .email-reminder-section-container {
+  font-size: 15px;
+  min-height: 60px;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 3px;
+  border-bottom: 1px solid #BDC3C7;
+  width: 100%;
+  position: relative;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.new-meeting-popover-container .email-reminder-section-container .test-email-text {
+  float: left;
+  font-size: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #aba8ac;
+}

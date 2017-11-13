@@ -1,0 +1,85 @@
+.mb-contacts-finder {
+
+}
+
+.mb-contacts-finder .contacts-finder-select {
+  width: 100%;
+}
+
+.mb-contacts-finder .Select .Select-item {
+  max-width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.mb-contacts-finder .Select .Select-option {
+  padding: 4px;
+}
+
+.mb-contacts-finder .Select-control {
+  padding-left: 0px;
+}
+
+.mb-contacts-finder .Select-placeholder {
+  padding-left: 0px;
+  color: #bdc3c7;
+}
+
+.mb-contacts-finder .Select-item-label {
+  max-width: 250px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.mb-contacts-finder .cf-contact-option {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  color: #4a5357 !important;
+}
+
+.mb-contacts-finder .cf-contact-option img {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  float: left;
+  border-radius: 15px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.mb-contacts-finder .cf-contact-option .cf-email {
+  display: inline-block;
+  float: left;
+  width: calc(100% - 30px);
+  line-height: 33px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.mb-contacts-finder .cf-contact-option .cf-info-container {
+  display: inline-block;
+  float: left;
+  width: calc(100% - 30px);
+  padding-left: 10px;
+  box-sizing: border-box;
+  height: 25px;
+  float: left;
+}
+
+.mb-contacts-finder .cf-contact-option .cf-display-name {
+  font-size: 13px;
+  line-height: 10px;
+  margin-top: 4px;
+}
+
+.mb-contacts-finder .cf-contact-option .cf-sub-email {
+  font-size: 11px;
+}
+
+.mb-contacts-finder .Select-clear {
+  display: none;
+}

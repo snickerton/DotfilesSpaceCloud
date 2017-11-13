@@ -1,0 +1,33 @@
+{
+   "description": "Blue and green cubes to illuminate your life.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+fcQVrUFl/2Qziktf/FWgDfhz631u1PTYt+fF8YLy7tG/LDMZs/iM1IjYGHUMFp0snTjcGV5OX3upenlsLJtQp24fvufp3EJGCgYYk5J/uM090PAHtBxbiyuqfK/XCapzeMecjVo53r92cyF1xbuz00YlK8MzRE/j95zY42rSBLCChyjIRgp2f4KJKWS3mNp1RE+VlmgZdffZpAI2NeQoNVT8IDGd7h/6+hRxelZs3Qn5fUijgt1gg/NFFoNkL4/qsY/Kexsn5OwEXP+MixTOOpqdeiJNqCJTfa3ctTsPvStpMCmbtg5A686XVGgkGAZWkRRH5pfLhf1O6Pb4x+j2QIDAQAB",
+   "manifest_version": 2,
+   "name": "Blue/Green Cubes",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 24, 78, 66 ],
+         "button_background": [ 0, 0, 0, 0 ],
+         "frame": [ 20, 99, 126 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 21, 45, 42 ],
+         "tab_text": [ 21, 63, 56 ],
+         "toolbar": [ 222, 222, 222 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 0.46, 0.53, 0.44 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1"
+}
